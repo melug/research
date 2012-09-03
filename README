@@ -6,6 +6,8 @@
 
 pip install -r requirements.txt
 
+python manage.py syncdb
+
 Ажиллуулах:
 
 python manage.py runserver
