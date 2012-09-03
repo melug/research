@@ -1,0 +1,229 @@
+{% extends "research_base/survey_base.html" %}
+{% block head %}
+        <style type="text/css">
+            h3 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            div.page {
+                border: 1px solid;
+                background: white;
+                padding: 10px;
+                margin-top: 20px;
+            }
+            div.page h4 {
+                background-color: #E2E5EE;
+                padding: 10px;
+            }
+            div.page h4:hover {
+                text-decoration: underline;
+            }
+            div.control {
+                padding: 10px;
+            }
+            div.controls {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            form.well {
+                margin-bottom: 0;
+                padding-left: 40px;
+            }
+            .actions {
+                margin-top: 20px;
+            }
+            div.question {
+                margin: 20px;
+            }
+            #update-title-form {
+                display: inline;
+                visibility: hidden;
+            }
+            .delete-question {
+                display: inline;
+                margin-right: 20px;
+                visibility: hidden;
+            }
+            div.question:hover .delete-question {
+                visibility: visible;
+            }
+        </style>
+        <script type="text/javascript">
+            $(function() {
+                $('.add-question').click(function() {
+                    post_url = $(this).parents('.page').attr('data-add-question-url');
+                    $('#create-question form').attr('action', post_url);
+                });
+                $('div.page h4').click(function() {
+                    var self = this;
+                    $('#update-title-form', this).css('visibility', 'visible');
+                    $('span.page-title', this).css('display', 'none');
+                    $('#update-title-form input', this).focus();
+                    $('#update-title-form input', this).blur(function() {
+                        $('#update-title-form', self).css('visibility', 'hidden');
+                        $('span.page-title', self).css('display', 'inline');
+                    });
+                });
+                var alert_message = $('#question-alert-message').hide();
+                var sub_questions = $('.sub-questions').hide();
+                $('#id_question_type').change(function() {
+                    var qtype = $(this).val();
+                    if (qtype === '5') {
+                        alert_message.show();
+                        sub_questions.show();
+                    } else {
+                        alert_message.hide();
+                        sub_questions.hide();
+                    }
+                    switch(qtype) {
+                        case '1': {
+                            $('.answers').show();
+                            break;
+                        };
+                        case '2': {
+                            $('.answers').show();
+                            break;
+                        };
+                        case '3': {
+                            $('.answers').hide();
+                            break;
+                        };
+                        case '4': {
+                            $('.answers').hide();
+                            break;
+                        };
+                        case '5': {
+                            $('.answers').show();
+                            alert_message.html('Асуулт гэсэн хэсэгт мөр бүрт нэгийг бичнэ үү.');
+                            break;
+                        };
+                    }
+                });
+            });
+        </script>
+{% endblock %}
+{% block body %}
+            {% for page in survey.page_set.all %}
+            <div class="row page" data-add-question-url="{% url add-question page_id=page.id %}">
+                <h4>
+                    {{ forloop.counter }}. <span class="page-title">{{ page.title }} <i class="icon-edit"></i></span>
+                    <form id="update-title-form" class="form-inline" action="{% url update-page pk=page.id %}" method="POST">{% csrf_token %}<input name="{{ update_form.title.html_name }}" type="text" value="{{ page.title }}"></form>
+                </h4>
+                {% for question in page.questions %}
+                <div class="row span12 question" id="question{{ question.id }}">
+                    <p>{{ forloop.counter }}. {{ question.question }}</p>
+                    <div>
+                        {% if question.question_type == 1 or question.question_type == 2 %}
+                        <ul>
+                        {% for answer in question.answertype_set.all %}
+                            <li>{{ answer.value }}</li>
+                        {% endfor %}
+                        </ul>
+                        {% else %}
+                            {% if question.question_type == 3 %}
+                                <p>Тоо оруулна</p>
+                            {% else %}
+                                {% if question.question_type == 4 %}
+                                    <p>Текст оруулна</p>
+                                {% else %}
+                                    <div class="row">
+                                        <div class="offset3 span3">
+                                        {% for answer in question.answertype_set.all %}
+                                            {{ answer.value }}, 
+                                        {% endfor %}
+                                        </div>
+                                    </div>
+                                    <ul>
+                                    {% for subquestion in question.subquestions.all %}
+                                        <li>
+                                                {{ subquestion.question }}
+                                        </li>
+                                    {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                        <form class="delete-question pull-right" method="POST" action="{% url delete-question pk=question.id %}">
+                            {% csrf_token %}
+                            <button class="btn btn-danger">Устгах</button>
+                        </form>
+                    </div>
+                </div>
+                {% empty %}
+                <div>
+                    <div><i>Асуултаа нэмнэ үү</i></div>
+                </div>
+                {% endfor %}
+                <div>
+                    <a class="btn pull-right add-question" data-toggle="modal" href="#create-question">Асуулт нэмэх</a>
+                </div>
+            </div>
+            {% endfor %}
+            <div class="row control actions">
+                <a class="btn" data-toggle="modal" href="#create-page">Хуудас нэмэх</a>
+            </div>
+        </div>
+{% endblock %}
+{% block modals %}
+        <div class="modal fade hide" id="create-question">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">×</a>
+                <h3>Асуулт нэмэх</h3>
+            </div>
+            <div class="row question-form">
+                <form class="well form-horizontal" method="POST">
+                    <div class="alert" id="question-alert-message">
+                        alert!
+                    </div>
+                    {% csrf_token %}
+                    <label class="control-label">Асуулт</label>
+                    <div class="controls">
+                        {{ question_form.question }}
+                    </div>
+                    <div class="sub-questions">
+                        <label class="control-label">Дэд асуултууд(мөр бүрт нэгийг):</label>
+                        <div class="controls">
+                            {{ question_form.questions }}
+                        </div>
+                    </div>
+                    <label class="control-label">Асуултын төрөл:</label>
+                    <div class="controls">
+                        {{ question_form.question_type }}
+                    </div>
+                    <div class="answers">
+                        <label class="control-label">Хариултууд(мөр бүрт нэгийг):</label>
+                        <div class="controls">
+                            {{ question_form.answers }}
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div class="pull-right actions">
+                                <button class="btn btn-primary">Хадгалах</button>
+                                <button class="btn" data-dismiss="modal">Болих</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal fade hide" id="create-page">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">×</a>
+                <h3>Хуудас нэмэх</h3>
+            </div>
+            <div class="row question-form">
+                <form class="well form-horizontal" method="POST">
+                    {% csrf_token %}
+                    <label class="control-label">Хуудасны гарчиг</label>
+                    <div class="controls">
+                        {{ form.title }}
+                    </div>
+                    <div class="row">
+                        <div class="pull-right actions">
+                            <button class="btn btn-primary">Хадгалах</button>
+                            <button class="btn" data-dismiss="modal">Болих</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "site_base.html" %}
+{% block site_map %}
+    <div class="span3"><a href="{% url surveytemplate-detail pk=object.id %}">{{ object.title }}</a></div>
+{% endblock %}
+{% block body %}
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Хэсэг</th>
+                <th>Асуултын тоо</th>
+            </tr>
+        </thead>
+        <tbody>
+    {% for section in object.section_set.all %}
+            <tr>
+                <td>{{ forloop.counter }}.</td>
+                <td>{{ section.title }}</td>
+                <td>{{ section.question_set.count }}</td>
+                <td><a class="btn" href="{% url section-detail pk=section.id %}">Засах</a></td>
+            </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+    <a class="btn primary" href="{% url add-section survey_id=object.id %}">Шинэ хэсэг нэмэх</a>
+    <form method="POST" action="{% url delete-surveytemplate pk=object.id %}">
+        {% csrf_token %}
+        <button class="btn danger">Энэ загварыг устгах</button>
+    </form>
+{% endblock %}

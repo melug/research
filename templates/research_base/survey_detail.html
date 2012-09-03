@@ -1,0 +1,8 @@
+{% extends "site_base.html" %}
+{% block body %}
+    <p>REPORT WILL BE HERE</p>
+    <form method="GET" action="{% url delete-survey pk=object.id %}">
+        {% csrf_token %}
+        <button class="btn danger">Устгах</button>
+    </form>
+{% endblock %}

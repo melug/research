@@ -1,0 +1,67 @@
+{% extends "site_base.html" %}
+{% load bootstrap_tags %}
+{% block extra_head %}
+    <style type="text/css">
+        textarea {
+            width: 350px;
+        }
+        div.sitemap {
+            margin-bottom: 50px;
+        }
+        .hidden {
+            visibility: hidden;
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        function add_answer() {
+            template = $('#answer-template').clone().removeClass('hidden');
+            template.attr('id', '')
+            $('#answers').append(template);
+            fix_answer_names();
+        }
+        function remove_answer(element) {
+            $(element).parents('div.answer').remove();
+            fix_answer_names();
+        };
+        function fix_answer_names() {
+            $('#answers div.input input').each(function(index) {
+                $(this).attr('name', 'answer'+index);
+            });
+        }
+    </script>
+{% endblock %}
+{% block site_map %}
+    <div class="span3">
+        <a href="{% url surveytemplate-detail pk=section.id %}">{{ section.survey_template.title }}</a>
+    </div>
+    <div class="span3">
+        <a href="{% url section-detail pk=section.id %}">{{ section.title }}</a>
+    </div>
+{% endblock %}
+{% block body %}
+<form method="POST">
+    {% csrf_token %}
+    {{ form|as_bootstrap }}
+    <div class="clearfix">
+        <button class="btn" onclick="add_answer();" type="button">Хариулт нэмэх</button>
+    </div>
+    <div id="answers">
+        <div class="clearfix answer">
+            <label>Хариулт</label>
+            <div class="input">
+                <input name="answer0" type="text">
+                <button class="btn danger" type="button" onclick="remove_answer(this);">Устгах</button>
+            </div>
+        </div>
+    </div>
+    <button class="btn primary">Хадгалах</button>
+</form>
+<div id="answer-template" class="clearfix hidden answer">
+    <label>Хариулт</label>
+    <div class="input">
+        <input type="text">
+        <button class="btn danger" type="button" onclick="remove_answer(this);">Устгах</button>
+    </div>
+</div>
+{% endblock %}

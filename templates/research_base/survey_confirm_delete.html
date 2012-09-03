@@ -1,0 +1,30 @@
+{% extends "site_base.html" %}
+{% block extra_head %}
+    <style type="text/css">
+        h3 {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+    <div class="row">
+        <div class="span12 offset4">
+            <h3>Та үнэхээр "{{ object.research.title }}" судалгааг устгамаар байна уу?</h3>
+        </div>
+        <div class="span12 offset4 row">
+            <div class="span2 offset4" style="display:inline-block;">
+                <form method="GET" action="{% url survey-detail pk=object.id %}">
+                    {% csrf_token %}
+                    <button class="btn">Үгүй</button>
+                </form>
+            </div>
+            <div class="span2" style="display:inline-block;">
+                <form method="POST" action="{% url delete-survey pk=object.id %}">
+                    {% csrf_token %}
+                    <button class="btn danger">Тийм</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

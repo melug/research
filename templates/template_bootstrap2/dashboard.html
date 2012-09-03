@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.css" rel="stylesheet">
+        <script type src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script type src="{{ STATIC_URL }}bootstrap/js/bootstrap.js">
+        </script>
+        <style type="text/css">
+            div.my-projects {
+                background: #E2E5EE;
+                padding: 10px;
+                border: 1px solid;
+            }
+            div.my-projects-status {
+                margin-top: 50px;
+            }
+            div.survey-commands {
+                font-size: smaller;
+                visibility: hidden;
+            }
+            tr:hover div.survey-commands {
+                visibility: visible;
+            }
+            #create-survey form {
+                margin-bottom: 0;
+            }
+            #create-survey .actions {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Modals -->
+            <div class="modal hide fade" id="create-survey">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">×</a>
+                    <h3>Шинээр судалгаа зохиох</h3>
+                </div>
+                <div class="row">
+                    <form class="well form-horizontal">
+                        <label class="control-label">Судалгааны нэр</label>
+                        <div class="controls">
+                            <input type="text" class="input-xlarge">
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label">Та хэрхэн судалгаа зохиох вэ?
+                            </label>
+                            <div class="controls">
+                                <label class="radio">
+                                <input type="radio" name="create_type" value="0">
+                                Бланк
+                                </label>
+                                <label class="radio">
+                                <input type="radio" name="create_type" value="0">
+                                Өмнөхөө хуулбарлах
+                                </label>
+                            </div>
+                        </div>
+                        <label class="control-label"> </label>
+                        <div class="controls">
+                            <select>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <div class="pull-right actions">
+                                <button class="btn btn-primary">Хадгалах</button>
+                                <button class="btn" data-dismiss="modal">Болих</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <a class="btn" data-toggle="modal" href="#create-survey">Судалгаа зохиох</a>
+                <a href="#" class="pull-right">гарах</a>
+            </div>
+            <div class="row my-projects-status">
+                <h3 class="pull-left">Миний судалгаанууд</h3>
+                <p class="pull-right">Нийт 3 судалгаа байна.</p>
+            </div>
+            <div class="row my-projects">
+                <div>
+                    <select>
+                        <optgroup label="Төлвөөр нь шүүх">
+                            <option>Эхлүүлсэн</option>
+                            <option>Засварт</option>
+                            <option>Дууссан</option>
+                            <option>Устгасан</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Төслүүд
+                            </th>
+                            <th>Төлөв
+                            </th>
+                            <th>Оролцсон хүний тоо
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div>Төрийн захиргааны байгууллагын менежмент: Чадамжийн индекс</div>
+                                <div class="survey-commands">
+                                    <a href="#"> засварлах</a>
+                                    |<a href="#"> урьдчилж харах</a>
+                                    |<a href="#"> тайлан</a>
+                                    |<a href="#"> экспорт</a>
+                                    |<a href="#"> устгах</a>
+                                </div>
+                            </td>
+                            <td>Засварт
+                            </td>
+                            <td>0
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="" class="pull-left">Экспорт</a>
+                <p class="pull-right">Нэг хуудас харуулах тоо: 
+                    <select style="width:auto;">
+                        <option>10</option>
+                        <option>20</option>
+                        <option>50</option>
+                    </select>
+                </p>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function() {
+                //$('#create-survey').on('hidden', function() { alert('hidden'); })
+            })
+        </script>
+    </body>
+</html>

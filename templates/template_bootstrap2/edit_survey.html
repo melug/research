@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.css" rel="stylesheet">
+        <script type src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script type src="{{ STATIC_URL }}bootstrap/js/bootstrap.js">
+        </script>
+        <style type="text/css">
+            div.header li {
+                list-style-type: none;
+                display: inline;
+                padding: 5px;
+            }
+            h3 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            div.header li:hover {
+            }
+            div.header {
+                padding: 5px;
+            }
+            div.page {
+                border: 1px solid;
+                padding: 10px;
+            }
+            div.page h4 {
+                background-color: #E2E5EE;
+                padding: 10px;
+            }
+            div.page h4:hover {
+                text-decoration: underline;
+            }
+            div.control {
+                padding: 10px;
+            }
+            form.well {
+                margin-bottom: 0;
+                padding-left: 40px;
+            }
+            #create-question .actions {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header">
+                <ul>
+                    <li><a href="#">Ерөнхий</a></li>
+                    <li><a href="#">Тохиргоо</a></li>
+                    <li><a href="#">Засвар</a></li>
+                    <li><a href="#">Эхлүүлэх</a></li>
+                    <li><a href="#">Тайлан</a></li>
+                    <li><a href="#">Экспорт</a></li>
+                </ul>
+            </div>
+            <h3>Судалгаа: Чадамжийн индекс</h3>
+            <div class="row page">
+                <h4>1. Хуудас нэг <i class="icon-edit"></i></h4>
+                <div>
+                    <div><i>Асуултаа нэмнэ үү</i></div>
+                </div>
+                <div>
+                    <a class="btn pull-right" data-toggle="modal" href="#create-question">Асуулт нэмэх</a>
+                </div>
+            </div>
+            <div class="row control">
+                <button class="btn">Хуудас нэмэх</button>
+            </div>
+        </div>
+        <div class="modal fade hide" id="create-question">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">×</a>
+                <h3>Асуулт нэмэх</h3>
+            </div>
+            <div class="row question-form">
+                <form class="well form-horizontal">
+                    <label class="control-label">Асуултын төрлөө сонгоно уу:</label>
+                    <div class="controls">
+                        <label class="radio">
+                            <input type="radio" name="question_type">Нэгийг сонгох
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="question_type">Олныг сонгох
+                        </label>
+                    </div>
+                    <label class="control-label">Хариултууд(мөр бүрт):</label>
+                    <div class="controls">
+                        <textarea class="input-xlarge" rows="5"></textarea>
+                    </div>
+                        <div class="row">
+                            <div class="pull-right actions">
+                                <button class="btn btn-primary">Хадгалах</button>
+                                <button class="btn" data-dismiss="modal">Болих</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

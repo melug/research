@@ -1,0 +1,254 @@
+{% extends "research_base/survey_base.html" %}
+{% load jsonify %}
+{% block head %}
+<style type="text/css">
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    div.page {
+        background: white;
+        border: 1px solid;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    div.page h4 {
+        background-color: #E2E5EE;
+        padding: 10px;
+    }
+    div.page h4:hover {
+        text-decoration: underline;
+    }
+    div.control {
+        padding: 10px;
+    }
+    div.controls {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    form.well {
+        margin-bottom: 0;
+        padding-left: 40px;
+    }
+    .actions {
+        margin-top: 20px;
+    }
+    div.question {
+        margin: 20px;
+    }
+    #update-title-form {
+        display: inline;
+        visibility: hidden;
+    }
+    .delete-question {
+        display: inline;
+        margin-right: 20px;
+        visibility: hidden;
+    }
+    div.question:hover .delete-question {
+        visibility: visible;
+    }
+    div.chart {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.chart-description {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    div.chart-description span.value {
+        font-style: italic;
+    }
+    div.chart-description span.count {
+        font-weight: bold;
+    }
+    div.select-chart {
+        padding-left: 15px;
+        display: none;
+    }
+</style>
+<script language="javascript" type="text/javascript" src="{{ STATIC_URL }}jqplot/jquery.jqplot.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}jqplot/jquery.jqplot.css" />
+<script type="text/javascript" src="{{ STATIC_URL }}jqplot/plugins/jqplot.pieRenderer.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}jqplot/plugins/jqplot.donutRenderer.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}jqplot/plugins/jqplot.barRenderer.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}jqplot/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}jqplot/plugins/jqplot.pointLabels.min.js"></script>
+<script type="text/javascript">
+    function make_piechart(element, data) {
+        var plot = jQuery.jqplot (element, [data], { 
+            seriesDefaults: {
+                // Make this a pie chart.
+                renderer: jQuery.jqplot.PieRenderer, 
+                rendererOptions: {
+                    // Put data labels on the pie slices.
+                    // By default, labels show the percentage of the slice.
+                    showDataLabels: true
+                    }
+                }, 
+                legend: { show:true, location: 'e' }
+        });
+    }
+    function make_barchart(element, data) {
+        var values = [];
+        var labels = [];
+        for(i in data) {
+            labels.push({ label:data[i][0] });
+            values.push(data[i][1]);
+        }
+        var plot = $.jqplot(element, [data], {
+            series: labels,
+            seriesColors: [ "#4bb2c5" ],
+            seriesDefaults:{
+                renderer:$.jqplot.BarRenderer,
+                rendererOptions: { }
+            },
+            legend: {
+                show: true,
+                placement: 'outsideGrid'
+            },
+            axes: {
+                xaxis: {
+                    renderer: $.jqplot.CategoryAxisRenderer
+                },
+                yaxis: {
+                    show: false,
+                    min: 0,
+                    pad: 1.5,
+                    tickOptions: {
+                        formatString: '%d'
+                    }
+                }
+            },
+            legend: {
+                location: 'e',
+                placement: 'outside'
+            }      
+        });
+    }
+    $(function() {
+        $('li.question-container').hover(function() {
+            $('div.select-chart', this).show();
+        }, function() {
+            $('div.select-chart', this).hide();
+        });
+    });
+</script>
+{% endblock %}
+{% block body %}
+    {% for page in survey.page_set.all %}
+        <div class="row page" data-add-question-url="{% url add-question page_id=page.id %}">
+            <h4>
+                {{ forloop.counter }}. <span class="page-title">{{ page.title }}</span>
+            </h4>
+            {% for question in page.questions %}
+            <div class="row span12 question" id="question{{ question.id }}">
+                <p>{{ forloop.counter }}. {{ question.question }}</p>
+                <div>
+                    {% if question.question_type == 1 or question.question_type == 2 %}
+                        {% with answers_counted=question.count_answers %}
+                            <div class="row select-chart">
+                                <select id="select-chart{{ question.id }}">
+                                    <option value='pie'>Pie Chart</option>
+                                    <option value='bar'>Bar Chart</option>
+                                </select>
+                            </div>
+                            <div id="chart{{ question.id }}" class="chart"></div>
+                            <script type="text/javascript">
+                                $(function() {
+                                    var data = {{ answers_counted|jsonify|safe }};
+                                    make_piechart('chart{{ question.id }}', data);
+                                    $('#select-chart{{ question.id }}').change(function() {
+                                        switch($(this).val()) {
+                                            case 'pie': {
+                                                make_piechart('chart{{ question.id }}', data);
+                                                break;
+                                            };
+                                            case 'bar': {
+                                                make_barchart('chart{{ question.id }}', data);
+                                                break;
+                                            }
+                                        };
+                                    });
+                                });
+                            </script>
+                            <div class="chart-description">
+                            {% for value, count in answers_counted %}
+                                <span class="value">{{ value }}</span>(<span class="count">{{ count }}</span>){% if not forloop.last %}, {% endif %} 
+                            {% endfor %}
+                            </div>
+                        {% endwith %}
+                    {% else %}
+                        {% if question.question_type == 3 %}
+                            <p>Тоо оруулна</p>
+                        {% else %}
+                            {% if question.question_type == 4 %}
+                                <p>Текст оруулна</p>
+                            {% else %}
+                                <div class="row">
+                                    <div class="offset3 span3">
+                                    {% for answer in question.answertype_set.all %}
+                                        {{ answer.value }}, 
+                                    {% endfor %}
+                                    </div>
+                                </div>
+                                <ul>
+                                {% for subquestion in question.subquestions.all %}
+                                    <li class="question-container">
+                                        <p>{{ subquestion.question }}</p>
+                                        {% with answers_counted=subquestion.count_answers %}
+                                            <div class="row select-chart">
+                                                <select id="select-chart{{ subquestion.id }}">
+                                                    <option value='pie'>Pie Chart</option>
+                                                    <option value='bar'>Bar Chart</option>
+                                                </select>
+                                            </div>
+                                            <div id="chart{{ subquestion.id }}" class="chart"></div>
+                                            <script type="text/javascript">
+                                                    $(function() {
+                                                        var data = {{ answers_counted|jsonify|safe }};
+                                                        make_piechart('chart{{ subquestion.id }}', data);
+                                                        $('#select-chart{{ subquestion.id }}').change(function() {
+                                                            switch($(this).val()) {
+                                                                case 'pie': {
+                                                                    make_piechart('chart{{ subquestion.id }}', data);
+                                                                    break;
+                                                                };
+                                                                case 'bar': {
+                                                                    make_barchart('chart{{ subquestion.id }}', data);
+                                                                    break;
+                                                                }
+                                                            };
+                                                        });
+                                                        var average = 0.0, count = 0;
+                                                        for(i=0; i<data.length; i++) {
+                                                            average += (i+1)*data[i][1];
+                                                            count += data[i][1];
+                                                        }
+                                                        average = average/count;
+                                                        average = Math.round(100*average)/100;
+                                                        $('#average{{ subquestion.id }}').text('Дундаж: ' + average);
+                                                    });
+                                            </script>
+                                            <div class="chart-description">
+                                            {% for value, count in answers_counted %}
+                                                <span class="value">{{ value }}</span>(<span class="count">{{ count }}</span>){% if not forloop.last %}, {% endif %} 
+                                            {% endfor %}
+                                                <div><b id="average{{ subquestion.id }}"></b></div>
+                                            </div>
+                                        {% endwith %}
+                                    </li>
+                                {% endfor %}
+                                </ul>
+                            {% endif %}
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endblock %}

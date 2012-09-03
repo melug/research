@@ -1,0 +1,11 @@
+{% load bootstrap_tags %}
+<form method="POST">
+    <fieldset>
+        <legend>{{ form_name }}</legend>
+        {% csrf_token %}
+        {{ form|as_bootstrap }}
+        <div style="text-align:center;">
+            <button class="btn primary">Нэмэх</button>
+        <div>
+    </fieldset>
+</form>

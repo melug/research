@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.css" rel="stylesheet">
+            </head>
+    <body>
+        <div class="container">
+            <div class="row"><h3>Шинээр судалгаа зохиох</h3></div>
+            <div class="row">
+                <form class="well form-horizontal">
+                    <label class="control-label">Судалгааны нэр</label>
+                    <div class="controls">
+                        <input type="text" class="input-xlarge">
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Та хэрхэн судалгаа зохиох вэ?
+                        </label>
+                        <div class="controls">
+                            <label class="radio">
+                            <input type="radio" name="create_type" value="0">
+                            Бланк
+                            </label>
+                            <label class="radio">
+                            <input type="radio" name="create_type" value="0">
+                            Өмнөхөө хуулбарлах
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="span4 offset2">
+                            <button class="btn btn-primary">Хадгалах</button>
+                            <button class="btn">Болих</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

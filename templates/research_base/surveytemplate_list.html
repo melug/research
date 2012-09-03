@@ -1,0 +1,20 @@
+{% extends "site_base.html" %}
+{% block body %}
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Нэр</th>
+            </tr>
+        </thead>
+        <tbody>
+    {% for surveytemplate in surveytemplate_list %}
+            <tr>
+                <td>{{ forloop.counter }}.</td>
+                <td>{{ surveytemplate.title }}</td>
+                <td><a class="btn" href="{% url surveytemplate-detail pk=surveytemplate.id %}">Засах</a></td>
+            </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

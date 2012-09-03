@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}common.css" rel="stylesheet">
+        <script type src="{{ STATIC_URL }}jquery.min.js"> </script>
+        <script type src="{{ STATIC_URL }}bootstrap/js/bootstrap.js">
+        </script>
+        <style type="text/css">
+            .survey-status {
+                margin-top: 40px;
+            }
+            .survey-status h4 {
+                margin: 20px;
+            }
+            h3 {
+                margin: 20px;
+            }
+        </style>
+        <title>{% block title %}Судалгаа: {{ survey.title }}{% endblock %}</title>
+        {% block head %}
+        {% endblock %}
+    </head>    
+    <body>
+        <div class="container">
+            <div class="navbar navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <ul class="nav">
+                            <li><a href="{% url survey-list %}">Нүүр хуудас</a></li>
+                            <li><a href="{% url update-survey pk=survey.id %}">Тохиргоо</a></li>
+                            <li><a href="{% url add-page survey_id=survey.id %}">Засвар</a></li>
+                            <li><a href="{% url launch-survey pk=survey.id %}">Эхлүүлэх</a></li>
+                            <li><a href="{% url survey-report pk=survey.id %}">Тайлан</a></li>
+                            <li><a href="{% url export-survey pk=survey.id %}">Экспорт</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row survey-status">
+                <div class="span6">
+                    <h3>Судалгаа: {{ survey.title }}</h3>
+                </div>
+                <div class="span4 pull-right"><h4>Төлөв: {{ survey.get_state_display }}</h4></div>
+            </div>
+            {% block body %}
+            {% endblock %}
+        </div>
+        {% block modals %}
+        {% endblock %}
+    </body>
+</html>

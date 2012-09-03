@@ -1,0 +1,13 @@
+{% extends "site_base.html" %}
+{% block extra_head %}
+    <style type="text/css">
+        textarea {
+            width: 350px;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+    {% with form_name="Судалгаа бэлдэх" %}
+        {% include "common_form.html" %}
+    {% endwith %}
+{% endblock %}

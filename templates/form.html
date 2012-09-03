@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}common.css" rel="stylesheet">
+        <script type src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script type src="{{ STATIC_URL }}bootstrap/js/bootstrap.js">
+        </script>
+        <style type="text/css">
+            ul {
+                list-style-type: none;
+            }
+            ul.answer-forms li li * {
+                display: inline;
+            }
+            ul.answer-forms > li {
+                margin: 25px 20px 25px;
+            }
+            li.subquestion {
+                margin-bottom: 0;
+                padding-left: 25px;
+            }
+            li.subquestion ul {
+                list-style-type: none;
+            }
+            li.subquestion li {
+            }
+            div.question {
+                margin-bottom: 10px;
+            }
+            div.page {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                background-color: white;
+            }
+            ul.errorlist {
+                color: red;
+            }
+            h3, h4 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h3> {{ survey.title }} </h3>
+            <h4> {{ page.title }} </h4>
+            <div class='row page'>
+                <form method='POST'>
+                    {% csrf_token %}
+                    <ul class="answer-forms">
+                    {% for form in forms %}
+                        {% if form.question.parent_question %}
+                            <li{% if form.question.parent_question %} class="subquestion"{% endif %}>
+                                <div class="row">
+                                {% if form.select_one_answers.errors %}
+                                    {{ form.select_one_answers.errors }}
+                                {% endif %}
+                                </div>
+                                <div class="row">
+                                    <div class="span7">
+                                        {% if not form.question.parent_question %}{{ counter.next }}. {% endif %}{{ form.question.question }}
+                                    </div>
+                                    <div class="span3">
+                                    {{ form.select_one_answers }}
+                                    </div>
+                                </div>
+                                <hr/>
+                        {% else %}
+                            <li>
+                                <div class="question">
+                                    {{ counter.next }}. {{ form.question.question }}
+                                </div>
+                            {% if form.question.question_type == 1 %}
+                                {% if form.select_one_answers.errors %}
+                                    {{ form.select_one_answers.errors }}
+                                {% endif %}
+                                {{ form.select_one_answers }}
+                            {% endif %}
+                            {% if form.question.question_type == 2 %}
+                                {% if form.select_multiple_answers.errors %}
+                                    {{ form.select_multiple_answers.errors }}
+                                {% endif %}
+                                {{ form.select_multiple_answers }}
+                            {% endif %}
+                            {% if form.question.question_type == 3 %}
+                                {% if form.number_input.errors %}
+                                    {{ form.number_input.errors }}
+                                {% endif %}
+                                {{ form.number_input }}
+                            {% endif %}
+                            {% if form.question.question_type == 4 %}
+                                {% if form.text_input.errors %}
+                                    {{ form.text_input.errors }}
+                                {% endif %}
+                                {{ form.text_input }}
+                            {% endif %}
+                            {% if form.question.question_type == 5 %}
+                            {% endif %}
+                        {% endif %}
+                        </li>
+                    {% endfor %}
+                    </ul>
+                    <div class="row">
+                        <div class="offset4 span4">
+                            <button type="" class="btn">Дараагийн хуудас</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

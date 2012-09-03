@@ -1,0 +1,37 @@
+{% extends "site_base.html" %}
+{% block site_map %}
+    <div class="span3"><a href="{% url surveytemplate-detail pk=object.survey_template.id %}">{{ object.survey_template.title }}</a></div>
+    <div class="span3"><a href="{% url section-detail pk=object.id %}">{{ object.title }}</a></div>
+{% endblock %}
+{% block body %}
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Асуулт</th>
+                <th>Хариултын төрөл</th>
+            </tr>
+        </thead>
+        <tbody>
+    {% for question in object.question_set.all %}
+            <tr>
+                <td>{{ forloop.counter }}.</td>
+                <td>{{ question.question }}</td>
+                <td>
+                {% if question.can_select_multiple %}
+                Олныг сонгох
+                {% else %}
+                Нэгийг сонгох
+                {% endif %}
+                </td>
+                <td><a class="btn" href="{% url update-question pk=question.id %}">Засах</a></td>
+            </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+    <a class="btn primary" href="{% url add-question section_id=object.id %}">Шинэ асуулт нэмэх</a>
+    <form method="POST" action="{% url delete-section pk=object.id %}">
+        {% csrf_token %}
+        <button class="btn danger">Энэ хэсгийг устгах</button>
+    </form>
+{% endblock %}

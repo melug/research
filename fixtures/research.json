@@ -1,0 +1,4818 @@
+[
+    {
+        "pk": 1, 
+        "model": "research_base.survey", 
+        "fields": {
+            "state": 3, 
+            "added_date": "2012-05-28 07:30:56", 
+            "user": 1, 
+            "title": "\u0425\u0430\u043c\u0442 \u043e\u043b\u043d\u044b \u04e9\u04e9\u0440\u0438\u0439\u043d \u04af\u043d\u044d\u043b\u0433\u044d\u044d"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "research_base.page", 
+        "fields": {
+            "survey": 1, 
+            "title": "\u041d\u042d\u0413. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u0417\u041e\u0420\u0418\u041b\u0413\u041e, \u0417\u041e\u0420\u0418\u041b\u0422\u042b\u041d \u0422\u0410\u041b\u0410\u0410\u0420 \u0425\u0410\u041c\u0422 \u041e\u041b\u041d\u042b \u04ae\u041d\u042d\u041b\u0413\u042d\u042d"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "research_base.page", 
+        "fields": {
+            "survey": 1, 
+            "title": "\u0425\u041e\u0401\u0420. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u0410 \u0414\u0410\u0425\u042c \u041c\u0410\u041d\u041b\u0410\u0419\u041b\u0410\u0425 \u0423\u0420 \u0427\u0410\u0414\u0412\u0410\u0420\u042b\u041d \u04ae\u041d\u042d\u041b\u0413\u042d\u042d"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "research_base.page", 
+        "fields": {
+            "survey": 1, 
+            "title": "\u0413\u0423\u0420\u0410\u0412. \u04ae\u0420 \u0414\u04ae\u041d\u0422\u042d\u0419 \u0411\u04ae\u0422\u042d\u0426 \u0417\u041e\u0425\u0418\u041e\u041d \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u0410\u041b\u0422\u042b\u041d \u04ae\u041d\u042d\u041b\u0413\u042d\u042d"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "research_base.page", 
+        "fields": {
+            "survey": 1, 
+            "title": "\u0414\u04e8\u0420\u04e8\u0412. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u0418\u0414\u042d\u0412\u0425\u0416\u04ae\u04ae\u041b\u042d\u041b\u0422, \u0425\u04e8\u0428\u04ae\u04ae\u0420\u0413\u0418\u0419\u041d  \u04ae\u041d\u042d\u041b\u0413\u042d\u042d"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "research_base.page", 
+        "fields": {
+            "survey": 1, 
+            "title": "\u0422\u0410\u0412. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u0425\u0410\u0420\u0418\u041b\u0426\u0410\u0410 \u0425\u0410\u041c\u0422\u042b\u041d \u0410\u0416\u0418\u041b\u041b\u0410\u0413\u0410\u0410\u041d\u042b  \u04ae\u041d\u042d\u041b\u0413\u042d\u042d"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "research_base.page", 
+        "fields": {
+            "survey": 1, 
+            "title": "\u0417\u0423\u0420\u0413\u0410\u0410. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u0417\u0410\u041d \u04ae\u0419\u041b, \u0421\u041e\u0401\u041b\u042b\u041d \u04ae\u041d\u042d\u041b\u0413\u042d\u042d"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "research_base.page", 
+        "fields": {
+            "survey": 1, 
+            "title": "\u0414\u041e\u041b\u041e\u041e. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u041d\u04e8\u04e8\u0426 \u0410\u0428\u0418\u0413\u041b\u0410\u041b\u0422\u042b\u041d  \u04ae\u041d\u042d\u041b\u0413\u042d\u042d"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "research_base.page", 
+        "fields": {
+            "survey": 1, 
+            "title": "\u041d\u0410\u0419\u041c. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u041c\u042d\u0414\u041b\u042d\u0413, \u0418\u041d\u041d\u041e\u0412\u0410\u0426\u0418\u0419\u041d \u04ae\u041d\u042d\u041b\u0413\u042d\u042d"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "research_base.page", 
+        "fields": {
+            "survey": 1, 
+            "title": "\u0415\u0421. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u0411\u04ae\u0422\u042d\u042d\u041c\u0416, \u0427\u0410\u041d\u0410\u0420, \u0413\u04ae\u0419\u0426\u042d\u0422\u0413\u042d\u041b\u0418\u0419\u041d \u04ae\u041d\u042d\u041b\u0413\u042d\u042d"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "research_base.page", 
+        "fields": {
+            "survey": 1, 
+            "title": "\u041d\u042d\u041c\u042d\u041b\u0422 \u041c\u042d\u0414\u042d\u042d\u041b\u042d\u041b"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u041d\u042d\u0413. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u0417\u041e\u0420\u0418\u041b\u0413\u041e, \u0417\u041e\u0420\u0418\u041b\u0422\u042b\u041d \u0422\u0410\u041b\u0410\u0410\u0420 \u0425\u0410\u041c\u0422 \u041e\u041b\u041d\u042b \u04ae\u041d\u042d\u041b\u0413\u042d\u042d", 
+            "page": 1, 
+            "question_type": 5
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 1, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0443\u0440\u0442 \u0445\u0443\u0433\u0430\u0446\u0430\u0430\u043d\u044b \u0445\u04e9\u0433\u0436\u043b\u0438\u0439\u043d \u0431\u043e\u0434\u043b\u043e\u0433\u043e, \u0442\u04af\u04af\u043d\u0438\u0439 \u04af\u0440 \u043d\u04e9\u043b\u04e9\u04e9 \u0442\u0430 \u0431\u04af\u0445\u044d\u043d\u0434 \u0442\u043e\u0434\u043e\u0440\u0445\u043e\u0439 \u0431\u0430\u0439\u0434\u0430\u0433 \u0443\u0443?", 
+            "page": 1, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 1, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0430\u043b\u0441\u044b\u043d \u0445\u0430\u0440\u0430\u0430, \u044d\u0440\u0445\u044d\u043c \u0437\u043e\u0440\u0438\u043b\u0433\u043e, \u0437\u043e\u0440\u0438\u043b\u0442\u0443\u0443\u0434 \u0442\u043e\u0434\u043e\u0440\u0445\u043e\u0439 \u044d\u0441\u044d\u0445?", 
+            "page": 1, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 1, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0437\u043e\u0440\u0438\u043b\u0433\u043e, \u0437\u043e\u0440\u0438\u043b\u0442\u0443\u0443\u0434 \u0433\u0430\u0434\u0430\u0430\u0434 \u043e\u0440\u0447\u0438\u043d\u0434\u043e\u043e \u043d\u0438\u0439\u0446\u0441\u044d\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 1, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 1, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u04e9\u04e9\u0440\u0447\u043b\u04e9\u043b\u0442\u04e9\u0434 \u0437\u043e\u0445\u0438\u0446\u043e\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 1, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 1, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u0431\u044d\u0440\u0445\u0448\u044d\u044d\u043b \u0441\u043e\u0440\u0438\u043b\u0442\u044b\u0433 \u0434\u0430\u0432\u0430\u043d \u0442\u0443\u0443\u043b\u0436, \u0431\u043e\u043b\u043e\u043c\u0436\u0438\u0439\u0433 \u0446\u0430\u0433 \u04af\u0440\u0433\u044d\u043b\u0436 \u0430\u0448\u0438\u0433\u043b\u0430\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u0443\u0443?", 
+            "page": 1, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 1, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u0437\u043e\u0440\u0447\u0438\u0433\u0447, \u04af\u0439\u043b\u0447\u043b\u04af\u04af\u043b\u044d\u0433\u0447\u0438\u0439\u043d\u0445\u044d\u044d \u0430\u043b\u0431\u0430\u043d \u0451\u0441\u043d\u044b \u0445\u04af\u0441\u044d\u043b\u0442, \u0441\u0430\u043d\u0430\u043b\u044b\u0433 \u0445\u04af\u043b\u044d\u044d\u043d \u0430\u0432\u0447 \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430\u043d\u0434\u0430\u0430 \u0442\u0443\u0441\u0433\u0430\u0436 \u0430\u0436\u0438\u043b\u043b\u0430\u0434\u0430\u0433 \u0443\u0443?", 
+            "page": 1, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 1, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u04af\u0439\u043b\u0447\u043b\u04af\u04af\u043b\u044d\u0433\u0447\u0434\u044d\u044d\u0441 \u0433\u0430\u0440\u0433\u0430\u0441\u0430\u043d \u0433\u043e\u043c\u0434\u043e\u043b, \u0441\u0430\u043d\u0430\u043b\u044b\u0433 \u0445\u04af\u043b\u044d\u044d\u0436 \u0430\u0432\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 1, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 1, 
+            "question": "\u041d\u044d\u0433\u0436 \u0445\u044d\u0441\u0433\u04af\u04af\u0434\u0438\u0439\u043d \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430 \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438 \u0442\u04e9\u043b\u04e9\u0432\u043b\u04e9\u0433\u04e9\u04e9\u0442\u044d\u0439\u0433\u044d\u044d \u043d\u044f\u0433\u0442 \u0443\u044f\u043b\u0434\u0441\u0430\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 1, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 1, 
+            "question": "\u0425\u04af\u043d \u0431\u04af\u0440\u0438\u0439\u043d \u0430\u0436\u043b\u044b\u043d \u0431\u0430\u0439\u0440\u043d\u044b \u0437\u043e\u0440\u0438\u043b\u0433\u043e, \u0437\u043e\u0440\u0438\u043b\u0442 \u043c\u0430\u0448 \u0442\u043e\u0434\u043e\u0440\u0445\u043e\u0439 \u0431\u0430\u0439\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 1, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 1, 
+            "question": "\u0411\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0437\u043e\u0440\u0438\u043b\u0433\u043e \u0437\u043e\u0440\u0438\u043b\u0442\u043e\u0434 \u0445\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u0445\u04af\u0447\u044d\u044d \u0434\u0430\u0439\u0447\u043b\u0430\u043d \u043d\u044d\u0433\u0434\u044d\u0436 \u0430\u0436\u0438\u043b\u043b\u0430\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u0443\u0443?", 
+            "page": 1, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0425\u041e\u0401\u0420. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u0410 \u0414\u0410\u0425\u042c \u041c\u0410\u041d\u041b\u0410\u0419\u041b\u0410\u0425 \u0423\u0420 \u0427\u0410\u0414\u0412\u0410\u0420\u042b\u041d \u04ae\u041d\u042d\u041b\u0413\u042d\u042d", 
+            "page": 2, 
+            "question_type": 5
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 12, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0430\u0436\u0438\u043b\u0442\u043d\u0443\u0443\u0434 \u0445\u0443\u0443\u043b\u0438\u0430\u0440 \u0437\u0430\u0430\u0441\u0430\u043d \u04af\u04af\u0440\u044d\u0433\u0442\u044d\u044d \u04af\u043d\u044d\u043d\u0447 \u0448\u0443\u0434\u0430\u0440\u0433\u0430 \u0431\u0430\u0439\u0436, \u0438\u0440\u0433\u044d\u0434\u044d\u0434 \u0445\u04af\u043d\u0434 \u0441\u0443\u0440\u0442\u0430\u043b\u0433\u04af\u0439 \u04af\u0439\u043b\u0447\u0438\u043b\u0436 \u0447\u0430\u0434\u0430\u0436 \u0431\u0430\u0439\u043d\u0430 \u0443\u0443?", 
+            "page": 2, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 12, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u0413\u0423\u0411 \u043d\u0430\u0440\u044b\u0445\u0430\u0430 \u0441\u0443\u0440\u0430\u043b\u0446\u0430\u0445 \u04af\u0439\u043b \u044f\u0432\u0446\u044b\u0433 \u0437\u043e\u0445\u0438\u043e\u043d \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u0434\u0430\u0433, \u04e9\u043c\u043d\u04e9\u0445 \u0442\u0443\u0440\u0448\u043b\u0430\u0433\u0430\u0430\u0441\u0430\u0430 \u0441\u0443\u0440\u0430\u043b\u0446\u0434\u0430\u0433, \u04e9\u04e9\u0440\u0447\u043b\u04e9\u0433\u0434\u04e9\u0436 \u0431\u0443\u0439 \u043d\u04e9\u0445\u0446\u04e9\u043b \u0448\u0430\u0430\u0440\u0434\u043b\u0430\u0433\u0430\u0434 \u0437\u043e\u0445\u0438\u0446\u043e\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0434\u0430\u0433 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u0443\u0443?", 
+            "page": 2, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 12, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0445\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u043c\u044d\u0434\u043b\u044d\u0433\u0438\u0439\u0433 \u0430\u0436\u0438\u043b \u0445\u044d\u0440\u044d\u0433 \u0431\u043e\u043b\u0433\u043e\u0445 \u0443\u0440 \u0447\u0430\u0434\u0432\u0430\u0440\u0442\u0430\u0439, \u0431\u04af\u0442\u044d\u044d\u043b\u0447 \u0433\u044d\u0436 \u0442\u0430 \u04af\u0437\u0434\u044d\u0433 \u04af\u04af?", 
+            "page": 2, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 12, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0445\u0430\u043c\u0442 \u043e\u043b\u043d\u044b \u0445\u0430\u0440\u0438\u043b\u0446\u0430\u0430\u043d\u044b \u0443\u0440 \u0447\u0430\u0434\u0432\u0430\u0440 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439 \u0442\u04af\u0432\u0448\u0438\u043d\u0434 \u0431\u0430\u0439\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 2, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 12, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0445\u0430\u0440\u0438\u043b\u0446\u0430\u0430, \u0431\u0430\u0433\u0430\u0430\u0440 \u0430\u0436\u0438\u043b\u043b\u0430\u0445 \u0447\u0430\u0434\u0432\u0430\u0440 \u0442\u04e9\u043b\u04e9\u0432\u0448\u0441\u04e9\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 2, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 12, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0445\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u0437\u043e\u0440\u0447\u0438\u0433\u0447, \u04af\u0439\u043b\u0447\u043b\u04af\u04af\u043b\u044d\u0433\u0447\u0438\u0434 \u0445\u0430\u043d\u0434\u0441\u0430\u043d \u0445\u0443\u0443\u043b\u044c \u0451\u0441\u043d\u044b \u04af\u0439\u043b\u0447\u0438\u043b\u0433\u044d\u044d\u0433 \u04af\u0437\u04af\u04af\u043b\u044d\u0445 \u044d\u0440\u043c\u044d\u043b\u0437\u044d\u043b\u0442\u044d\u0439 \u044d\u0441\u044d\u0445?", 
+            "page": 2, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 12, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0445\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u0431\u0430\u0433\u0430\u0430\u0440 \u0430\u0436\u0438\u043b\u043b\u0430\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 2, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 12, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0445\u044d\u043b\u0442\u044d\u0441 \u043d\u044d\u0433\u0436\u04af\u04af\u0434\u044d\u0434 \u0430\u0436\u0438\u043b, \u0434\u0430\u0432\u0445\u0446\u0430\u0445, \u0446\u0430\u043b\u0433\u0430\u0440\u0434\u0430\u0445 \u044f\u0432\u0434\u0430\u043b \u0433\u0430\u0440\u0434\u0430\u0433\u0433\u04af\u0439 \u0433\u044d\u0436 \u0442\u0430 \u04af\u0437\u0434\u044d\u0433 \u04af\u04af?", 
+            "page": 2, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 12, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0445\u0430\u043c\u0442 \u043e\u043b\u043d\u044b \u0433\u0438\u0448\u04af\u04af\u043d \u0431\u04af\u0440 \u0445\u0430\u0440\u0438\u0443\u0446\u043b\u0430\u0433\u0430\u0430 \u0443\u0445\u0430\u043c\u0441\u0430\u0440\u043b\u0430\u0436 \u0430\u0436\u0438\u043b\u043b\u0430\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 2, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 12, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u043d\u044c \u0448\u0438\u0439\u0434\u0432\u044d\u0440 \u0433\u0430\u0440\u0433\u0430\u0445\u0434\u0430\u0430 \u0445\u0430\u043c\u0442\u044b\u043d \u0437\u0430\u0440\u0447\u043c\u044b\u0433 \u0445\u044d\u0440\u044d\u0433\u0436\u04af\u04af\u043b\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 2, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0413\u0423\u0420\u0410\u0412. \u04ae\u0420 \u0414\u04ae\u041d\u0422\u042d\u0419 \u0411\u04ae\u0422\u042d\u0426 \u0417\u041e\u0425\u0418\u041e\u041d \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u0410\u041b\u0422\u042b\u041d \u04ae\u041d\u042d\u041b\u0413\u042d\u042d", 
+            "page": 3, 
+            "question_type": 5
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 24, 
+            "question": "\u0411\u04af\u0442\u044d\u0446 \u0431\u043e\u043b\u043e\u043d \u044d\u0440\u0445 \u043c\u044d\u0434\u043b\u0438\u0439\u043d \u0445\u0443\u0432\u0430\u0430\u0440\u0438\u043b\u0430\u043b\u0442 \u043d\u044c \u0437\u043e\u0440\u0438\u043b\u0433\u043e, \u0437\u043e\u0440\u0438\u043b\u0442\u0442\u043e\u0439\u0433\u043e\u043e \u0443\u044f\u043b\u0434\u0430\u0436 \u0447\u0430\u0434\u0441\u0430\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 3, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 24, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0443\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430 \u0431\u04af\u0440\u044d\u043d \u044d\u0440\u0445\u0438\u0439\u0433 \u0442\u04e9\u043b\u04e9\u04e9\u043b\u04af\u04af\u043b\u044d\u043d \u0448\u0438\u043b\u0436\u04af\u04af\u043b\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 3, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 24, 
+            "question": "\u0410\u0436\u043b\u044b\u043d \u0431\u0430\u0439\u0440\u043d\u044b \u0442\u043e\u0434\u043e\u0440\u0445\u043e\u0439\u043b\u043e\u043b\u0442 \u043d\u044c \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d\u0445\u0430\u0430 \u0437\u043e\u0440\u0438\u043b\u0433\u043e, \u0437\u043e\u0440\u0438\u043b\u0442\u0442\u043e\u0439 \u0441\u0430\u0439\u043d \u0443\u044f\u043b\u0434\u0441\u0430\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 3, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 24, 
+            "question": "\u0413\u0430\u0430\u043b\u0438\u0439\u043d \u0443\u043b\u0441\u044b\u043d \u0431\u0430\u0439\u0446\u0430\u0430\u0433\u0447  \u0431\u04af\u0440\u0438\u0439\u043d \u0430\u0436\u043b\u044b\u043d \u0431\u0430\u0439\u0440\u043d\u044b \u0442\u043e\u0434\u043e\u0440\u0445\u043e\u0439\u043b\u043e\u043b\u0442 \u0442\u043e\u0434\u043e\u0440\u0445\u043e\u0439 \u0431\u0430\u0439\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 3, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 24, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0433\u0430\u0430\u043b\u0438\u0439\u043d \u0443\u043b\u0441\u044b\u043d \u0431\u0430\u0439\u0446\u0430\u0430\u0433\u0447 \u0431\u04af\u0440\u0438\u0439\u043d \u0445\u04af\u043b\u044d\u044d\u0445 \u0445\u0430\u0440\u0438\u0443\u0446\u043b\u0430\u0433\u0430 \u0442\u043e\u0434\u043e\u0440\u0445\u043e\u0439 \u0431\u0430\u0439\u0434\u0430\u0433 \u044d\u0441\u044d\u0445? ", 
+            "page": 3, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 24, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0433\u0430\u0430\u043b\u0438\u0439\u043d \u0443\u043b\u0441\u044b\u043d \u0431\u0430\u0439\u0446\u0430\u0430\u0433\u0447 \u043d\u0430\u0440\u044b\u043d \u0430\u0436\u043b\u0430\u0430 \u0442\u0430\u0439\u043b\u0430\u0433\u043d\u0430\u0445 \u04af\u0439\u043b \u044f\u0432\u0446 \u0442\u043e\u0434\u043e\u0440\u0445\u043e\u0439 \u0431\u0430\u0439\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 3, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 24, 
+            "question": "\u0413\u0430\u0430\u043b\u0438\u0439\u043d \u0443\u043b\u0441\u044b\u043d \u0431\u0430\u0439\u0446\u0430\u0430\u0433\u0447\u0438\u0439\u043d \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430\u043d\u0434\u0430\u0430 \u0434\u0430\u0433\u0430\u0436 \u043c\u04e9\u0440\u0434\u04e9\u0445 \u0445\u0443\u0443\u043b\u044c, \u0436\u0443\u0440\u0430\u043c \u043c\u0430\u0448 \u0442\u043e\u0434\u0440\u0445\u043e\u0439 \u0431\u04e9\u0433\u04e9\u04e9\u0434 \u0430\u0436\u0438\u043b\u0442\u043d\u0443\u0443\u0434 \u043d\u044c \u044f\u0433\u0448\u0442\u0430\u043b \u0431\u0430\u0440\u0438\u043c\u0442\u0430\u043b\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 3, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 24, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430\u043d\u044b \u0434\u044d\u0433, \u0434\u0430\u0440\u0430\u0430\u043b\u0430\u043b \u043c\u0430\u0448 \u0441\u0430\u0439\u043d \u0442\u043e\u0434\u043e\u0440\u0445\u043e\u0439\u043b\u043e\u0433\u0434\u0441\u043e\u043d \u044d\u0441\u044d\u0445? ", 
+            "page": 3, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 24, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430\u0434 \u0430\u0436\u043b\u044b\u043d \u043d\u044d\u044d\u043b\u0442\u0442\u044d\u0439, \u0431\u04af\u0442\u044d\u044d\u043b\u0447 \u0443\u0443\u0440 \u0430\u043c\u044c\u0441\u0433\u0430\u043b \u0442\u04e9\u043b\u04e9\u0432\u0448\u0441\u04e9\u043d  \u0433\u044d\u0436 \u0442\u0430 \u04af\u0437\u0434\u044d\u0433 \u04af\u04af?", 
+            "page": 3, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 24, 
+            "question": "\u0425\u0430\u043c\u0442 \u043e\u043b\u043e\u043d\u0434 \u0413\u0423\u0411 \u0431\u04af\u0440\u0438\u0439\u043d \u0445\u04af\u043b\u044d\u044d\u043d \u0437\u04e9\u0432\u0448\u04e9\u04e9\u0440\u0441\u04e9\u043d \u043d\u044d\u0433\u0434\u043c\u044d\u043b \u0441\u043e\u0451\u043b \u0431\u0438\u0439 \u0431\u043e\u043b\u0441\u043e\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 3, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0414\u04e8\u0420\u04e8\u0412. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u0418\u0414\u042d\u0412\u0425\u0416\u04ae\u04ae\u041b\u042d\u041b\u0422, \u0425\u04e8\u0428\u04ae\u04ae\u0420\u0413\u0418\u0419\u041d  \u04ae\u041d\u042d\u041b\u0413\u042d\u042d", 
+            "page": 4, 
+            "question_type": 5
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 35, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438 \u0442\u04e9\u043b\u04e9\u0432\u043b\u04e9\u0433\u04e9\u04e9, \u0445\u04af\u0440\u044d\u0445 \u04af\u0440 \u0434\u04af\u043d \u0442\u043e\u0434\u043e\u0440\u0445\u043e\u0439 \u0431\u0430\u0439\u0434\u0430\u0433 \u044d\u0441\u044d\u0445? ", 
+            "page": 4, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 35, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0430\u0436\u043b\u044b\u043d \u04af\u043d\u044d\u043b\u0433\u044d\u044d\u043d\u0438\u0439 \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c, \u0430\u0440\u0433\u0430 \u0445\u044d\u0440\u044d\u0433\u0441\u044d\u043b \u04af\u0440 \u0434\u04af\u043d\u0442\u044d\u0439 \u0433\u044d\u0436 \u0442\u0430 \u04af\u0437\u0434\u044d\u0433 \u04af\u04af?", 
+            "page": 4, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 35, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u0413\u0423\u0411 \u043d\u0430\u0440\u0430\u0430 \u0441\u0443\u0440\u0433\u0430\u0436 \u0445\u04e9\u0433\u0436\u04af\u04af\u043b\u044d\u0445 \u0430\u0441\u0443\u0443\u0434\u0430\u043b\u0434 \u0430\u043d\u0445\u0430\u0430\u0440\u043b\u0430\u0430 \u0431\u0430\u0439\u043d\u0433\u0430 \u0445\u0430\u043d\u0434\u0443\u0443\u043b\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u0443\u0443?", 
+            "page": 4, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 35, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u0413\u0423\u0411 \u043d\u0430\u0440\u0430\u0430 \u0443\u0440\u0430\u043c\u0448\u0443\u0443\u043b\u0430\u043d \u0441\u044d\u0434\u044d\u043b\u0436\u04af\u04af\u043b\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 4, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 35, 
+            "question": "\u0422\u0430 \u0431\u04af\u0445\u044d\u043d \u0433\u0430\u0430\u043b\u0438\u0439\u043d \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430\u0434 \u0430\u0432\u0438\u043b\u0433\u0430, \u0445\u044d\u044d\u043b \u0445\u0430\u0445\u0443\u0443\u043b\u044c \u044d\u0440\u0447\u0438\u043c\u0442\u044d\u0439 \u0431\u0443\u0443\u0440\u0447 \u0431\u0430\u0439\u043d\u0430 \u0433\u044d\u0436 \u04af\u0437\u0434\u044d\u0433 \u04af\u04af?", 
+            "page": 4, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 35, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0443\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430 \u0430\u0441\u0443\u0443\u0434\u0430\u043b\u0434 \u0443\u043b \u0441\u0443\u0443\u0440\u044c\u0442\u0430\u0439 \u0448\u0443\u0434\u0430\u0440\u0433\u0430 \u0445\u0430\u043d\u0434\u0430\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445? ", 
+            "page": 4, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 35, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430\u0430\u0441 \u0430\u0436\u0438\u043b\u0442\u043d\u0443\u0443\u0434\u044b\u043d\u0445\u0430\u0430 \u0433\u04af\u0439\u0446\u044d\u0442\u0433\u044d\u043b\u0442\u044d\u0439 \u0442\u0430\u043d\u0438\u043b\u0446\u0430\u0436, \u0430\u043c\u0436\u0438\u043b\u0442\u044b\u0433 \u0443\u0440\u0430\u043c\u0448\u0443\u0443\u043b\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 4, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 35, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0443\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430 \u0430\u0436\u0438\u043b\u0442\u043d\u0443\u0443\u0434\u0434\u0430\u0430 \u0446\u0430\u0433 \u04af\u0435\u0438\u0439\u0433 \u043d\u044c \u043e\u043b\u0436 \u0443\u0440\u0430\u043c \u0445\u0430\u0439\u0440\u043b\u0430\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 4, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 35, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430\u0430\u0441 \u0445\u0430\u043c\u0442 \u043e\u043b\u043e\u043d\u0434\u043e\u043e \u0443\u0440\u0430\u043c \u0437\u043e\u0440\u0438\u0433\u0442\u043e\u0439 \u0430\u0436\u0438\u043b\u043b\u0430\u0445 \u043e\u0440\u0447\u0438\u043d\u0433 \u0431\u04af\u0440\u0434\u04af\u04af\u043b\u0436 \u0447\u0430\u0434\u0441\u0430\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 4, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 35, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430\u0430\u0441 \u0430\u0436\u0438\u043b\u0442\u043d\u0443\u0443\u0434\u044b\u043d\u0445\u0430\u0430 \u0445\u0443\u0432\u044c \u0445\u04af\u043d\u0438\u0439 \u0445\u044d\u0440\u044d\u0433\u0446\u044d\u044d, \u0445\u04af\u043b\u044d\u044d\u043b\u0442\u0438\u0439\u0433 \u043c\u044d\u0434\u044d\u0440\u0447 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 4, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0422\u0410\u0412. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u0425\u0410\u0420\u0418\u041b\u0426\u0410\u0410 \u0425\u0410\u041c\u0422\u042b\u041d \u0410\u0416\u0418\u041b\u041b\u0410\u0413\u0410\u0410\u041d\u042b  \u04ae\u041d\u042d\u041b\u0413\u042d\u042d", 
+            "page": 5, 
+            "question_type": 5
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 46, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430 \u0442\u0430 \u0431\u04af\u0445\u043d\u0438\u0439 \u04af\u0437\u044d\u043b \u0431\u043e\u0434\u043e\u043b \u0445\u0430\u043d\u0434\u043b\u0430\u0433\u044b\u0433 \u0430\u043d\u0445\u0430\u0430\u0440\u0447 \u0430\u0432\u0447 \u04af\u0437\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 5, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 46, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0443\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430 \u0448\u0438\u043d\u044d \u0441\u0430\u043d\u0430\u0430, \u0441\u0430\u043d\u0430\u043b\u0434 \u04af\u0440\u0433\u044d\u043b\u0436 \u0431\u043e\u0434\u0438\u0442\u043e\u0439 \u04af\u043d\u044d\u043b\u044d\u043b\u0442 \u04e9\u0433\u0434\u04e9\u0433 \u044d\u0441\u044d\u0445? ", 
+            "page": 5, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 46, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430, \u0445\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u0442\u0443\u0445\u0430\u0439\u043d \u0430\u0436\u043b\u044b\u043d \u0442\u0430\u043b\u0430\u0430\u0440 \u0431\u0430\u0439\u043d\u0433\u0430 \u0441\u0430\u043d\u0430\u043b \u0441\u043e\u043b\u0438\u043b\u0446\u0434\u043e\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 5, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 46, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u043c\u044d\u0434\u044d\u044d\u043b\u043b\u0438\u0439\u043d \u0443\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u044b\u043d \u0442\u043e\u0433\u0442\u043e\u043b\u0446\u043e\u043e  \u043e\u0439\u043b\u0433\u043e\u043c\u0436\u0442\u043e\u0439 \u044d\u0441\u044d\u0445?", 
+            "page": 5, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 46, 
+            "question": "\u0425\u0430\u043c\u0442\u044b\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430\u0442\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0443\u0443\u0434\u0442\u0430\u0439\u0433\u0430\u0430 \u0442\u0443\u0440\u0448\u043b\u0430\u0433\u0430, \u043c\u044d\u0434\u044d\u044d\u043b\u044d\u043b \u0441\u043e\u043b\u0438\u043b\u0446\u0434\u043e\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 5, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 46, 
+            "question": "\u041c\u044d\u0440\u0433\u044d\u0436\u043b\u0438\u0439\u043d \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0443\u0443\u0434\u0442\u0430\u0439 \u043d\u044f\u0433\u0442 \u0445\u0430\u043c\u0442\u0440\u0430\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 5, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 46, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0437\u04af\u0433\u044d\u044d\u0441 \u0442\u04e9\u0440\u0438\u0439\u043d \u0431\u0443\u0441 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0443\u0443\u0434\u0442\u0430\u0439 \u0445\u0430\u043c\u0442\u0440\u0430\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 5, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 46, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u043e\u043b\u043e\u043d \u0443\u043b\u0441\u044b\u043d \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0443\u0443\u0434\u0442\u0430\u0439 \u0445\u0430\u043c\u0442\u0440\u0430\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 5, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 46, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u0433\u0430\u0434\u0430\u0430\u0434 \u0445\u0430\u0440\u0438\u043b\u0446\u0430\u0430\u0433\u0430\u0430 \u04e9\u0440\u0433\u04e9\u0436\u04af\u04af\u043b\u044d\u0445 \u0447\u0438\u0433\u043b\u044d\u043b\u044d\u044d\u0440 \u0430\u043d\u0445\u0430\u0430\u0440\u0447 \u0430\u0436\u0438\u043b\u043b\u0430\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 5, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 46, 
+            "question": "\u0413\u0430\u0434\u0430\u0430\u0434 \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430\u043d\u0434\u0430\u0430 \u043e\u043b\u043e\u043d \u0443\u043b\u0441\u044b\u043d \u044d\u0440\u0445 \u0437\u04af\u0439\u043d \u0437\u0430\u0440\u0447\u043c\u0443\u0443\u0434\u044b\u0433 \u0438\u0448 \u04af\u043d\u0434\u044d\u0441 \u0431\u043e\u043b\u0433\u043e\u0434\u043e\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 5, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0417\u0423\u0420\u0413\u0410\u0410. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u0417\u0410\u041d \u04ae\u0419\u041b, \u0421\u041e\u0401\u041b\u042b\u041d \u04ae\u041d\u042d\u041b\u0413\u042d\u042d", 
+            "page": 6, 
+            "question_type": 5
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 57, 
+            "question": "\u0413\u0430\u0430\u043b\u0438\u0439\u043d \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0445\u044d\u0442\u0438\u0439\u043d \u0445\u04e9\u0433\u0436\u0438\u043b, \u0431\u043e\u0434\u043b\u043e\u0433\u044b\u043d \u0442\u0430\u043b\u0430\u0430\u0440 \u0442\u0430 \u0431\u04af\u0445\u044d\u043d \u0445\u044d\u0440 \u043c\u044d\u0434\u044d\u0445 \u0432\u044d?", 
+            "page": 6, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 57, 
+            "question": "\u0413\u0430\u0434\u0430\u0430\u0434 \u0434\u043e\u0442\u043e\u043e\u0434 \u043e\u0440\u0447\u043d\u044b \u04e9\u04e9\u0440\u0447\u043b\u04e9\u043b\u0442\u04e9\u0434 \u0431\u044d\u043b\u044d\u043d \u0431\u0430\u0439\u0436 \u0443\u0445\u0430\u043c\u0441\u0430\u0440\u0442\u0430\u0439 \u0445\u0430\u0440\u0438\u0443 \u04af\u0439\u043b\u0434\u044d\u043b \u0445\u0438\u0439\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 6, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 57, 
+            "question": "\u0417\u043e\u0440\u0438\u043b\u0433\u043e, \u0437\u043e\u0440\u0438\u043b\u0442\u043e\u0434 \u0445\u04af\u0440\u044d\u0445\u0438\u0439\u043d \u0442\u0443\u043b\u0434 \u043d\u04e9\u04e9\u0446\u0438\u0439\u0433 \u0434\u044d\u044d\u0434 \u0437\u044d\u0440\u0433\u044d\u044d\u0440 \u0430\u0448\u0438\u0433\u043b\u0430\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 6, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 57, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u044b\u043d \u0437\u04af\u0433\u044d\u044d\u0441 \u0445\u0430\u043c\u0442 \u043e\u043b\u043d\u044b \u0431\u043e\u043b\u043e\u043d \u0438\u0440\u0433\u044d\u0434\u0438\u0439\u043d \u0445\u044d\u0440\u044d\u0433\u0446\u044d\u044d \u0448\u0430\u0430\u0440\u0434\u043b\u0430\u0433\u044b\u0433 \u043c\u044d\u0434\u044d\u0440\u0447 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 6, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 57, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430\u0430\u0441 \u0445\u0443\u0432\u044c \u0445\u04af\u043d\u0438\u0439 \u044f\u043b\u0433\u0430\u0430\u0442\u0430\u0439 \u0431\u0430\u0439\u0434\u0430\u043b, \u043e\u043d\u0446\u043b\u043e\u0433\u0438\u0439\u0433 \u0445\u04af\u043b\u044d\u044d\u043d \u0437\u04e9\u0432\u0448\u04e9\u04e9\u0440\u0434\u04e9\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 6, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 57, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430, \u0445\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u0445\u0430\u0440\u0438\u0443\u0446\u043b\u0430\u0433\u0430 \u0445\u04af\u043b\u044d\u044d\u0445\u044d\u0434 \u0431\u044d\u043b\u044d\u043d \u0431\u0430\u0439\u0434\u0430\u0433 \u0431\u04e9\u0433\u04e9\u04e9\u0434 \u0437\u0430\u0439\u043b\u0441\u0445\u0438\u0439\u0434\u044d\u0433\u0433\u04af\u0439 \u044e\u0443?", 
+            "page": 6, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 57, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0445\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u043c\u044d\u0440\u0433\u044d\u0436\u043b\u0438\u0439\u043d \u0443\u0440 \u0447\u0430\u0434\u0432\u0430\u0440\u0430\u0430 \u0434\u0430\u0439\u0447\u043b\u0430\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 6, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 57, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0443\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430 \u0448\u0438\u0439\u0434\u0432\u044d\u0440 \u0433\u0430\u0440\u0433\u0430\u0445\u0430\u0434 \u0431\u0443\u0441\u0434\u044b\u043d \u0441\u0430\u043d\u0430\u0430 \u0431\u043e\u0434\u043b\u044b\u0433 \u0441\u043e\u043d\u0441\u0434\u043e\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 6, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 57, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430\u0430\u0441 \u0445\u044d\u0440\u044d\u0433\u0436\u04af\u04af\u043b\u0436 \u0431\u0443\u0439 \u044d\u0440\u0441\u0434\u043b\u0438\u0439\u043d \u0443\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u044b\u043d \u0437\u0430\u0440\u0447\u043c\u044b\u0433 \u0441\u0430\u0439\u043d \u043e\u0439\u043b\u0433\u043e\u0436 \u0445\u044d\u0440\u044d\u0433\u0436\u04af\u04af\u043b\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 6, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 57, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0445\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u04e9\u04e9\u0440\u0438\u0439\u043d \u0433\u044d\u0441\u044d\u043d \u04e9\u043d\u0433\u04e9 \u0442\u04e9\u0440\u0445, \u0438\u043c\u0438\u0434\u0436\u0438\u0439\u0433 \u0431\u0438\u0439 \u0431\u043e\u043b\u0433\u043e\u0441\u043e\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 6, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0414\u041e\u041b\u041e\u041e. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u041d\u04e8\u04e8\u0426 \u0410\u0428\u0418\u0413\u041b\u0410\u041b\u0422\u042b\u041d  \u04ae\u041d\u042d\u041b\u0413\u042d\u042d", 
+            "page": 7, 
+            "question_type": 5
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 68, 
+            "question": "\u04ae\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430\u0433\u0430\u0430 \u0445\u044d\u0432\u0438\u0439\u043d \u044f\u0432\u0443\u0443\u043b\u0430\u0445\u0430\u0434 \u0448\u0430\u0430\u0440\u0434\u043b\u0430\u0433\u0430\u0442\u0430\u0439 \u0442\u043e\u043d\u043e\u0433 \u0442\u04e9\u0445\u04e9\u04e9\u0440\u04e9\u043c\u0436\u04e9\u04e9\u0440 \u0445\u0430\u043d\u0433\u0430\u0433\u0434\u0441\u0430\u043d \u044d\u0441\u044d\u0445? ", 
+            "page": 7, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 68, 
+            "question": "\u0425\u0430\u043c\u0442 \u043e\u043b\u043e\u043d\u0434 \u0442\u0435\u0445\u043d\u0438\u043a, \u0442\u043e\u043d\u043e\u0433 \u0442\u04e9\u0445\u04e9\u04e9\u0440\u04e9\u043c\u0436\u0438\u0439\u0433 \u0430\u0448\u0438\u0433\u043b\u0430\u0445 \u0443\u0440 \u0447\u0430\u0434\u0432\u0430\u0440 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439 \u044d\u0441\u044d\u0445?", 
+            "page": 7, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 68, 
+            "question": "\u0425\u04af\u043d\u0438\u0439 \u043d\u04e9\u04e9\u0446\u0438\u0439\u043d \u043c\u0435\u043d\u0435\u0436\u043c\u0435\u043d\u0442 \u043d\u044c \u043e\u043d\u043e\u0432\u0447\u0442\u043e\u0439 \u044d\u0441\u044d\u0445?", 
+            "page": 7, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 68, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430\u0430\u0441 \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0441\u0434\u044b\u043d\u0445\u0430\u0430 \u0430\u0432\u044c\u044f\u0430\u0441 \u0447\u0430\u0434\u0432\u0430\u0440\u044b\u0433 \u043d\u044d\u044d\u043d \u0438\u043b\u0440\u04af\u04af\u043b\u0436 \u0430\u0448\u0438\u0433\u043b\u0430\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 7, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 68, 
+            "question": "\u0413\u0430\u0434\u0430\u0430\u0434, \u0434\u043e\u0442\u043e\u043e\u0434 \u0441\u0443\u0440\u0433\u0430\u043b\u0442\u0443\u0443\u0434\u044b\u0433 \u0442\u0430\u0441\u0440\u0430\u043b\u0442\u0433\u04af\u0439 \u0437\u043e\u0445\u0438\u043e\u043d \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 7, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 68, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u0430\u0445 \u0430\u0436\u0438\u043b\u0442\u043d\u0443\u0443\u0434 \u043d\u044c \u0443\u0434\u0438\u0440\u0434\u0430\u0445\u0443\u0439\u043d \u0443\u0440 \u0447\u0430\u0434\u0432\u0430\u0440\u0443\u0443\u0434\u044b\u0433 \u0431\u04af\u0440\u044d\u043d \u044d\u0437\u044d\u043c\u0448\u0441\u044d\u043d \u0433\u044d\u0436 \u0442\u0430 \u04af\u0437\u0434\u044d\u0433 \u04af\u04af?", 
+            "page": 7, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 68, 
+            "question": "\u0425\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u04e9\u04e9\u0440\u0442\u04e9\u04e9 \u0431\u0430\u0439\u0433\u0430\u0430 \u043d\u04e9\u04e9\u0446 \u0443\u0440 \u0447\u0430\u0434\u0432\u0430\u0440\u044b\u0433 \u043d\u044d\u044d\u043d \u0445\u0430\u0440\u0443\u0443\u043b\u0430\u0445 \u0431\u043e\u043b\u043e\u043c\u0436 \u0431\u0438\u0439 \u044d\u0441\u044d\u0445?", 
+            "page": 7, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 76, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 68, 
+            "question": "\u0425\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u0441\u0430\u043d\u0445\u04af\u04af\u0433\u0438\u0439\u043d \u0443\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u044b\u043d \u0437\u0430\u0440\u0447\u043c\u0443\u0443\u0434\u044b\u0433 \u043e\u0439\u043b\u0433\u043e\u0434\u043e\u0433 \u0431\u04e9\u0433\u04e9\u04e9\u0434 \u043e\u0440\u043e\u043b\u0446\u0434\u043e\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 7, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 68, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430 \u044d\u0440\u0441\u0434\u043b\u0438\u0439\u043d \u0443\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u044b\u043d \u0437\u0430\u0440\u0447\u043c\u0443\u0443\u0434\u044b\u0433 \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430\u043d\u0434\u0430\u0430 \u0445\u044d\u0440\u044d\u0433\u0436\u04af\u04af\u043b\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 7, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 78, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 68, 
+            "question": "\u0411\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u0445\u0443\u0432\u044c\u0434 \u0448\u0430\u0430\u0440\u0434\u043b\u0430\u0433\u0430\u0442\u0430\u0439 \u043d\u04e9\u04e9\u0446\u0438\u0439\u0433 \u0431\u04af\u0440\u0434\u04af\u04af\u043b\u0436 \u0447\u0430\u0434\u0441\u0430\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 7, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u041d\u0410\u0419\u041c. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u041c\u042d\u0414\u041b\u042d\u0413, \u0418\u041d\u041d\u041e\u0412\u0410\u0426\u0418\u0419\u041d \u04ae\u041d\u042d\u041b\u0413\u042d\u042d", 
+            "page": 8, 
+            "question_type": 5
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 79, 
+            "question": "\u041d\u043e\u043c \u0441\u043e\u043d\u0438\u043d, \u0441\u044d\u0442\u0433\u04af\u04af\u043b, \u0441\u0443\u0434\u0430\u043b\u0433\u0430\u0430 \u0448\u0438\u043d\u0436\u0438\u043b\u0433\u044d\u044d\u043d\u0438\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u0430\u0433\u0443\u0443\u043b\u0441\u0430\u043d \u043c\u044d\u0434\u044d\u044d\u043b\u043b\u0438\u0439\u043d \u0441\u0430\u043d\u0442\u0430\u0439 \u044d\u0441\u044d\u0445?", 
+            "page": 8, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 81, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 79, 
+            "question": "\u0425\u043e\u043e\u0440\u043e\u043d\u0434\u043e\u043e \u0447\u04e9\u043b\u04e9\u04e9\u0442\u044d\u0439 \u043c\u044d\u0434\u044d\u044d\u043b\u044d\u043b \u0441\u043e\u043b\u0438\u043b\u0446\u043e\u0445 \u0430\u0440\u0433\u0430 \u0445\u044d\u043c\u0436\u044d\u044d\u0433 \u0437\u043e\u0445\u0438\u043e\u043d \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 8, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 82, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 79, 
+            "question": "\u0421\u0443\u0440\u0433\u0430\u043b\u0442, \u0441\u0435\u043c\u0438\u043d\u0430\u0440\u0442 \u0445\u0430\u043c\u0440\u0430\u0433\u0434\u0441\u0430\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0441\u0430\u0434 \u043c\u044d\u0434\u044d\u044d\u043b\u043b\u044d\u044d \u0442\u04af\u0433\u044d\u044d\u0445 \u0430\u0440\u0433\u0430 \u0445\u044d\u0440\u044d\u0433\u0441\u044d\u043b\u0442\u044d\u0439 \u044d\u0441\u044d\u0445?", 
+            "page": 8, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 79, 
+            "question": "\u0425\u0430\u0440\u0438\u043b\u0446\u0430\u0433\u0447 \u0442\u04af\u043d\u0448\u04af\u04af\u0434\u0438\u0439\u043d\u0445\u044d\u044d \u0448\u0438\u043d\u044d \u0441\u0430\u043d\u0430\u0430\u0447\u0438\u043b\u0433\u044b\u0433 \u0434\u044d\u043c\u0436\u0438\u0445, \u0445\u04af\u043b\u044d\u044d\u043d \u0430\u0432\u0430\u0445 \u0445\u04e9\u0442\u04e9\u043b\u0431\u04e9\u0440\u0442\u044d\u0439 \u044d\u0441\u044d\u0445?", 
+            "page": 8, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 84, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 79, 
+            "question": "\u0428\u0438\u043d\u044d \u0441\u0430\u043d\u0430\u0430\u0433 \u0445\u04af\u043b\u044d\u044d\u043d \u0430\u0432\u0447 \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430\u043d\u0434\u0430\u0430 \u043d\u044d\u0432\u0442\u0440\u04af\u04af\u043b\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 8, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 85, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 79, 
+            "question": "\u0422\u0430\u043d\u0430\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430 \u0441\u0443\u0440\u0430\u043b\u0446\u0430\u0445 \u04af\u0439\u043b \u044f\u0432\u0446\u044b\u0433 \u0442\u044d\u0440\u0433\u04af\u04af\u043b\u044d\u0445 \u0447\u0438\u0433\u043b\u044d\u043b\u044d\u044d \u0431\u043e\u043b\u0433\u043e\u0441\u043e\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 8, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 79, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430\u0430\u0441 \u0431\u0430\u0433\u0438\u0439\u043d \u0433\u0438\u0448\u04af\u04af\u043d \u0431\u04af\u0440\u0438\u0439\u043d \u0431\u04af\u0442\u044d\u044d\u043b\u0447 \u0431\u0430\u0439\u0434\u043b\u044b\u0433 \u04af\u043d\u044d\u043b\u0436 \u0434\u04af\u0433\u043d\u044d\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 8, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 79, 
+            "question": "\u0423\u0434\u0438\u0440\u0434\u043b\u0430\u0433\u0430\u0430\u0441 \u0430\u0436\u0438\u043b\u0442\u043d\u0443\u0443\u0434\u0430\u0430 \u0445\u04e9\u0433\u0436\u04af\u04af\u043b\u044d\u0445 \u0430\u043b\u0445\u0430\u043c\u0443\u0443\u0434\u044b\u0433 \u0434\u044d\u043c\u0436\u0438\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 8, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 79, 
+            "question": "\u0428\u0438\u043d\u044d \u0441\u0430\u043d\u0430\u0430 \u0433\u0430\u0440\u0433\u0430\u0433\u0447\u0434\u0430\u0434 \u04af\u043d\u0434\u0441\u044d\u043d \u0430\u0436\u043b\u044b\u043d \u0446\u0430\u0433\u0430\u0430\u0441 \u0433\u0430\u0434\u043d\u0430 \u043d\u044d\u043c\u044d\u043b\u0442 \u0446\u0430\u0433 \u0433\u0430\u0440\u0433\u0430\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 8, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 79, 
+            "question": "\u0425\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u0448\u0438\u043d\u044d\u044d\u0440 \u0431\u0438 \u0431\u043e\u043b\u0433\u043e\u0441\u043e\u043d \u043c\u044d\u0434\u043b\u044d\u0433 \u0443\u0440 \u0447\u0430\u0434\u0432\u0430\u0440, \u0442\u0443\u0440\u0448\u043b\u0430\u0433\u044b\u0433 \u0431\u04af\u0440\u044d\u043d \u0430\u0448\u0438\u0433\u043b\u0430\u0436 \u0447\u0430\u0434\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 8, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0415\u0421. \u0411\u0410\u0419\u0413\u0423\u0423\u041b\u041b\u0410\u0413\u042b\u041d \u0411\u04ae\u0422\u042d\u042d\u041c\u0416, \u0427\u0410\u041d\u0410\u0420, \u0413\u04ae\u0419\u0426\u042d\u0422\u0413\u042d\u041b\u0418\u0419\u041d \u04ae\u041d\u042d\u041b\u0413\u042d\u042d", 
+            "page": 9, 
+            "question_type": 5
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 90, 
+            "question": "\u0413\u04af\u0439\u0446\u044d\u0442\u0433\u044d\u043b\u0438\u0439\u043d \u0445\u044d\u043c\u0436\u0438\u043b\u0442, \u0448\u0438\u043d\u0436\u0438\u043b\u0433\u044d\u044d \u0431\u0430 \u04af\u043d\u044d\u043b\u0433\u044d\u044d, \u0442\u04e9\u043b\u04e9\u0432\u043b\u04e9\u043b\u0442 \u0431\u043e\u043b\u043e\u0432\u0441\u0440\u0443\u0443\u043b\u0434\u0430\u0433 \u044d\u0441\u044d\u0445? ", 
+            "page": 9, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 90, 
+            "question": "\u0425\u0430\u043c\u0442 \u043e\u043b\u043e\u043d \u0431\u04af\u0442\u044d\u044d\u043c\u0436\u0438\u0439\u0433 \u043d\u044d\u043c\u044d\u0433\u0434\u04af\u04af\u043b\u044d\u0445\u044d\u0434 \u0447\u0438\u0433\u043b\u044d\u0441\u044d\u043d \u0442\u0443\u0440\u0448\u043b\u0430\u0433\u0430 \u043d\u044d\u0432\u0442\u0440\u04af\u04af\u043b\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 9, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 90, 
+            "question": "\u0425\u044d\u0440\u044d\u0433\u043b\u044d\u0433\u0447\u044d\u044d\u0441 \u0431\u04af\u0442\u044d\u044d\u0433\u0434\u044d\u0445\u04af\u04af\u043d, \u04af\u0439\u043b\u0447\u0438\u043b\u0433\u044d\u044d\u043d\u0438\u0439 \u0442\u0430\u043b\u0430\u0430\u0440 \u0441\u0430\u043d\u0430\u043b \u0433\u043e\u043c\u0434\u043b\u044b\u0433 \u0445\u04af\u043b\u044d\u044d\u0436 \u0430\u0432\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 9, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 90, 
+            "question": "\u0425\u0430\u0440\u0438\u043b\u0446\u0430\u0433\u0447 \u0442\u04af\u043d\u0448\u04af\u04af\u0434\u0438\u0439\u043d\u0445\u044d\u044d \u0441\u044d\u0442\u0433\u044d\u043b \u0445\u0430\u043d\u0430\u043c\u0436\u0438\u0439\u043d \u0441\u0443\u0434\u0430\u043b\u0433\u0430\u0430\u0433 \u0431\u0430\u0439\u043d\u0433\u0430 \u0445\u0438\u0439\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 9, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 90, 
+            "question": "\u0410\u0436\u0438\u043b\u043b\u0430\u0433\u0441\u0430\u0434 \u0430\u0436\u0438\u043b\u0434\u0430\u0430 \u0441\u044d\u0442\u0433\u044d\u043b \u0445\u0430\u043d\u0430\u043c\u0436\u0442\u0430\u0439, \u0430\u0436\u043b\u044b\u043d \u0433\u04af\u0439\u0446\u044d\u0442\u0433\u044d\u043b \u044f\u043c\u0430\u0433\u0442 \u0441\u0430\u0439\u043d \u0431\u0430\u0439\u0434\u0430\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 9, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 90, 
+            "question": "\u04ae\u0439\u043b\u0447\u0438\u043b\u0433\u044d\u044d\u043d\u0438\u0439 \u0447\u0430\u043d\u0430\u0440\u0442 \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0441\u0434\u044b\u043d \u0441\u044d\u0442\u0433\u044d\u043b \u0445\u0430\u043d\u0430\u043c\u0436 \u0447\u0443\u0445\u0430\u043b \u043d\u04e9\u043b\u04e9\u04e9 \u04af\u0437\u04af\u04af\u043b\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 9, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 97, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 90, 
+            "question": "\u0425\u044d\u043b\u0442\u044d\u0441, \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430\u0433 \u0433\u04af\u0439\u0446\u044d\u0442\u0433\u044d\u043b\u0438\u0439\u043d \u0448\u0430\u043b\u0433\u0430\u0436, \u0434\u04af\u0433\u043d\u044d\u0436 \u0437\u0430\u043d\u0448\u0441\u0430\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 9, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 98, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 90, 
+            "question": "\u0413\u04af\u0439\u0446\u044d\u0442\u0433\u044d\u043b\u0438\u0439\u043d \u04af\u043d\u044d\u043b\u0433\u044d\u044d\u0433 \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0447\u0434\u044b\u043d \u0446\u0430\u043b\u0438\u043d, \u0448\u0430\u0433\u043d\u0430\u043b \u0443\u0440\u0430\u043c\u0448\u0443\u0443\u043b\u0430\u043b\u0442\u0430\u0439 \u0445\u043e\u043b\u0431\u043e\u043d \u04af\u0437\u0434\u044d\u0433 \u044d\u0441\u044d\u0445?", 
+            "page": 9, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 99, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 90, 
+            "question": "\u0425\u044d\u043b\u0442\u044d\u0441 \u043d\u044d\u0433\u0436\u0438\u0439\u043d \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430\u0433 \u0441\u0430\u0439\u0436\u0440\u0443\u0443\u043b\u0430\u0445\u044b\u043d \u0442\u0443\u043b\u0434 \u0430\u0440\u0433\u0430 \u0445\u044d\u043c\u0436\u044d\u044d \u0430\u0432\u0447 \u0437\u0430\u043d\u0448\u0441\u0430\u043d \u044d\u0441\u044d\u0445?", 
+            "page": 9, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 100, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": 90, 
+            "question": "\u04ae\u0439\u043b\u0447\u0438\u043b\u0433\u044d\u044d\u043d\u0438\u0439 \u0447\u0430\u043d\u0430\u0440\u0442 \u0442\u0430\u0432\u0438\u0445 \u0430\u043d\u0445\u0430\u0430\u0440\u0430\u043b, \u04af\u043d\u044d\u043b\u0433\u044d\u044d\u043d\u0438\u0439 \u0442\u0443\u0441\u0433\u0430\u0439 \u0430\u0440\u0433\u0443\u0443\u0434\u044b\u0433 \u043d\u044d\u0432\u0442\u0440\u04af\u04af\u043b\u0441\u044d\u043d \u044d\u0441\u044d\u0445? ", 
+            "page": 9, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 101, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0422\u0430\u043d\u044b \u0430\u0436\u0438\u043b\u043b\u0430\u0441\u0430\u043d \u0436\u0438\u043b", 
+            "page": 10, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 102, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0422\u0430\u043d\u044b \u0430\u043b\u0431\u0430\u043d \u0442\u0443\u0448\u0430\u0430\u043b", 
+            "page": 10, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 103, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0422\u0430\u043d\u044b \u0430\u0436\u0438\u043b\u043b\u0430\u0436 \u0431\u0443\u0439 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430", 
+            "page": 10, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 104, 
+        "model": "research_base.question", 
+        "fields": {
+            "parent_question": null, 
+            "question": "\u0422\u0430\u043d\u044b \u043d\u0430\u0441", 
+            "page": 10, 
+            "question_type": 1
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 2, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 2, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 2, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 2, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 2, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 3, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 3, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 3, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 3, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 3, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 4, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 4, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 4, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 4, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 4, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 5, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 5, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 5, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 5, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 5, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 6, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 6, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 6, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 6, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 6, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 7, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 7, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 7, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 7, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 7, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 8, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 8, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 8, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 8, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 8, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 9, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 9, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 9, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 9, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 9, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 10, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 10, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 10, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 10, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 10, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 11, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 11, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 11, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 11, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 11, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 13, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 13, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 13, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 13, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 13, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 14, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 14, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 14, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 14, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 14, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 15, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 15, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 15, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 15, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 15, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 16, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 16, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 16, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 16, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 16, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 17, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 17, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 17, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 17, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 17, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 76, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 18, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 18, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 78, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 18, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 18, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 18, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 20, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 20, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 20, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 20, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 20, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 21, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 21, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 21, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 21, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 21, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 22, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 97, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 22, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 98, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 22, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 99, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 22, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 100, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 22, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 101, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 23, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 102, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 23, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 103, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 23, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 104, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 23, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 105, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 23, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 106, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 25, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 107, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 25, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 108, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 25, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 109, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 25, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 110, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 25, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 111, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 26, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 112, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 26, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 113, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 26, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 114, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 26, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 115, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 26, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 116, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 27, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 117, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 27, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 118, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 27, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 119, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 27, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 120, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 27, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 121, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 28, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 122, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 28, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 123, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 28, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 124, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 28, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 125, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 28, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 126, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 29, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 127, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 29, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 128, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 29, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 129, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 29, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 130, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 29, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 131, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 30, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 132, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 30, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 133, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 30, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 134, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 30, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 135, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 30, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 136, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 31, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 137, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 31, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 138, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 31, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 139, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 31, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 140, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 31, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 141, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 32, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 142, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 32, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 143, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 32, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 144, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 32, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 145, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 32, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 146, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 33, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 147, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 33, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 148, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 33, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 149, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 33, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 150, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 33, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 151, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 34, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 152, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 34, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 153, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 34, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 154, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 34, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 155, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 34, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 156, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 36, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 157, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 36, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 158, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 36, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 159, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 36, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 160, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 36, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 161, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 37, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 162, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 37, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 163, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 37, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 164, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 37, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 165, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 37, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 166, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 38, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 167, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 38, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 168, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 38, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 169, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 38, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 170, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 38, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 171, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 39, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 172, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 39, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 173, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 39, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 174, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 39, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 175, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 39, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 176, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 40, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 177, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 40, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 178, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 40, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 179, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 40, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 180, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 40, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 181, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 41, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 182, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 41, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 183, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 41, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 184, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 41, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 185, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 41, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 186, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 42, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 187, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 42, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 188, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 42, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 189, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 42, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 190, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 42, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 191, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 43, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 192, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 43, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 193, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 43, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 194, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 43, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 195, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 43, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 196, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 44, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 197, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 44, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 198, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 44, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 199, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 44, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 200, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 44, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 201, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 45, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 202, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 45, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 203, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 45, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 204, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 45, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 205, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 45, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 206, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 47, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 207, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 47, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 208, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 47, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 209, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 47, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 210, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 47, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 211, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 48, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 212, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 48, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 213, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 48, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 214, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 48, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 215, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 48, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 216, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 49, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 217, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 49, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 218, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 49, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 219, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 49, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 220, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 49, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 221, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 50, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 222, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 50, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 223, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 50, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 224, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 50, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 225, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 50, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 226, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 51, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 227, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 51, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 228, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 51, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 229, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 51, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 230, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 51, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 231, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 52, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 232, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 52, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 233, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 52, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 234, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 52, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 235, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 52, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 236, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 53, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 237, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 53, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 238, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 53, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 239, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 53, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 240, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 53, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 241, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 54, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 242, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 54, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 243, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 54, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 244, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 54, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 245, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 54, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 246, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 55, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 247, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 55, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 248, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 55, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 249, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 55, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 250, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 55, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 251, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 56, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 252, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 56, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 253, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 56, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 254, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 56, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 255, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 56, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 256, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 58, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 257, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 58, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 258, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 58, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 259, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 58, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 260, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 58, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 261, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 59, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 262, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 59, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 263, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 59, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 264, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 59, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 265, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 59, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 266, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 60, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 267, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 60, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 268, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 60, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 269, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 60, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 270, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 60, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 271, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 61, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 272, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 61, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 273, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 61, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 274, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 61, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 275, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 61, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 276, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 62, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 277, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 62, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 278, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 62, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 279, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 62, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 280, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 62, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 281, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 63, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 282, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 63, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 283, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 63, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 284, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 63, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 285, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 63, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 286, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 64, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 287, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 64, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 288, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 64, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 289, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 64, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 290, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 64, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 291, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 65, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 292, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 65, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 293, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 65, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 294, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 65, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 295, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 65, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 296, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 66, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 297, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 66, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 298, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 66, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 299, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 66, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 300, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 66, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 301, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 67, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 302, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 67, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 303, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 67, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 304, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 67, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 305, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 67, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 306, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 69, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 307, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 69, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 308, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 69, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 309, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 69, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 310, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 69, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 311, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 70, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 312, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 70, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 313, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 70, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 314, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 70, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 315, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 70, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 316, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 71, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 317, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 71, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 318, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 71, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 319, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 71, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 320, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 71, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 321, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 72, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 322, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 72, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 323, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 72, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 324, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 72, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 325, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 72, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 326, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 73, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 327, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 73, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 328, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 73, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 329, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 73, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 330, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 73, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 331, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 74, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 332, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 74, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 333, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 74, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 334, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 74, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 335, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 74, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 336, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 75, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 337, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 75, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 338, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 75, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 339, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 75, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 340, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 75, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 341, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 76, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 342, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 76, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 343, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 76, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 344, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 76, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 345, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 76, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 346, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 77, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 347, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 77, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 348, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 77, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 349, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 77, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 350, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 77, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 351, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 78, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 352, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 78, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 353, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 78, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 354, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 78, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 355, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 78, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 356, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 80, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 357, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 80, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 358, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 80, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 359, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 80, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 360, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 80, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 361, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 81, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 362, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 81, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 363, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 81, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 364, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 81, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 365, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 81, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 366, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 82, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 367, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 82, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 368, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 82, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 369, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 82, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 370, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 82, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 371, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 83, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 372, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 83, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 373, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 83, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 374, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 83, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 375, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 83, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 376, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 84, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 377, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 84, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 378, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 84, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 379, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 84, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 380, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 84, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 381, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 85, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 382, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 85, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 383, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 85, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 384, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 85, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 385, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 85, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 386, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 86, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 387, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 86, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 388, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 86, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 389, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 86, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 390, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 86, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 391, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 87, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 392, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 87, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 393, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 87, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 394, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 87, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 395, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 87, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 396, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 88, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 397, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 88, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 398, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 88, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 399, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 88, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 400, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 88, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 401, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 89, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 402, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 89, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 403, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 89, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 404, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 89, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 405, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 89, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 406, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 91, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 407, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 91, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 408, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 91, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 409, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 91, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 410, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 91, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 411, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 92, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 412, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 92, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 413, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 92, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 414, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 92, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 415, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 92, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 416, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 93, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 417, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 93, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 418, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 93, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 419, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 93, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 420, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 93, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 421, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 94, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 422, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 94, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 423, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 94, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 424, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 94, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 425, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 94, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 426, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 95, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 427, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 95, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 428, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 95, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 429, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 95, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 430, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 95, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 431, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 96, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 432, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 96, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 433, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 96, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 434, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 96, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 435, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 96, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 436, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 97, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 437, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 97, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 438, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 97, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 439, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 97, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 440, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 97, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 441, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 98, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 442, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 98, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 443, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 98, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 444, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 98, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 445, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 98, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 446, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 99, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 447, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 99, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 448, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 99, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 449, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 99, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 450, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 99, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 451, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 100, 
+            "value": "\u041c\u044d\u0434\u044d\u0445\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 452, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 100, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0433\u04af\u0439"
+        }
+    }, 
+    {
+        "pk": 453, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 100, 
+            "value": "\u0414\u0443\u043d\u0434 \u0437\u044d\u0440\u044d\u0433"
+        }
+    }, 
+    {
+        "pk": 454, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 100, 
+            "value": "\u0425\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 455, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 100, 
+            "value": "\u041c\u0430\u0448 \u0445\u0430\u043d\u0433\u0430\u043b\u0442\u0442\u0430\u0439"
+        }
+    }, 
+    {
+        "pk": 456, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 101, 
+            "value": "2 \u0436\u0438\u043b \u0445\u04af\u0440\u0442\u044d\u043b"
+        }
+    }, 
+    {
+        "pk": 457, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 101, 
+            "value": "4 \u0436\u0438\u043b \u0445\u04af\u0440\u0442\u044d\u043b"
+        }
+    }, 
+    {
+        "pk": 458, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 101, 
+            "value": "5-\u0430\u0430\u0441 \u0434\u044d\u044d\u0448 \u0436\u0438\u043b"
+        }
+    }, 
+    {
+        "pk": 459, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 102, 
+            "value": "\u0414\u044d\u044d\u0434 \u0442\u04af\u0432\u0448\u0438\u043d"
+        }
+    }, 
+    {
+        "pk": 460, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 102, 
+            "value": "\u0414\u0443\u043d\u0434 \u0442\u04af\u0432\u0448\u0438\u043d"
+        }
+    }, 
+    {
+        "pk": 461, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 102, 
+            "value": "\u0410\u043d\u0445\u0430\u043d \u0448\u0430\u0442"
+        }
+    }, 
+    {
+        "pk": 462, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 103, 
+            "value": "\u0413\u0430\u0430\u043b\u0438\u0439\u043d \u0434\u044d\u044d\u0434 \u0448\u0430\u0442\u043d\u044b \u0443\u0434\u0438\u0440\u0434\u0430\u0445 \u0431\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430"
+        }
+    }, 
+    {
+        "pk": 463, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 103, 
+            "value": "\u041d\u0438\u0439\u0441\u043b\u044d\u043b\u0434 \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430 \u044f\u0432\u0443\u0443\u043b\u0434\u0430\u0433"
+        }
+    }, 
+    {
+        "pk": 464, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 103, 
+            "value": "\u041e\u0440\u043e\u043d \u043d\u0443\u0442\u0430\u0433\u0442 \u04af\u0439\u043b \u0430\u0436\u0438\u043b\u043b\u0430\u0433\u0430\u0430 \u044f\u0432\u0443\u0443\u043b\u0434\u0430\u0433"
+        }
+    }, 
+    {
+        "pk": 465, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 104, 
+            "value": "25 \u0445\u04af\u0440\u0442\u044d\u043b"
+        }
+    }, 
+    {
+        "pk": 466, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 104, 
+            "value": "35 \u0445\u04af\u0440\u0442\u044d\u043b"
+        }
+    }, 
+    {
+        "pk": 467, 
+        "model": "research_base.answertype", 
+        "fields": {
+            "question": 104, 
+            "value": "36-\u0430\u0430\u0441 \u0434\u044d\u044d\u0448"
+        }
+    }
+]

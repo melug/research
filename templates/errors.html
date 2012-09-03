@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="{{ STATIC_URL }}bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}common.css" rel="stylesheet">
+        <style type="text/css">
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                {% if code == 1 %}
+                Системээс гадуур санал асуулгад оролцох боломжгүй.
+                {% else %}
+                    {% if code == 2 %}
+                    Та санал асуулгад оролцсон байна.
+                    {% endif %}
+                {% endif %}
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+{% extends "research_base/survey_base.html" %}
+{% block head %}
+    <style type="text/css">
+        b {
+            text-transform: uppercase;
+        }
+        div.page {
+            border: 1px solid;
+            background: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style
+{% endblock %}
+{% block body %}
+<div class="row">
+    {% if survey.state == 1 %}
+        <p>Таны судалгаа <b>эхэлсэн</b> амжилттай үргэлжилж байна.</p>
+    {% else %}
+        <p>Таны судалгаа <b>эхлээгүй</b> байна.</p>
+    {% endif %}
+    <div class="row page">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Судалгаа авах интернет холбоос</th>
+                    <th>Оролцсон хүний тоо</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Холбоос: <a href="{% url start-survey survey_id=survey.id %}">{% url start-survey survey_id=survey.id %}</a></td>
+                    <td>{{ survey.count_responders }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="pull-right span4">
+            {% if survey.state == 1 %}
+                <form method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" name="{{ form.state.html_name }}" value="2">
+                    <button class="btn btn-danger">Дуусгах</button>
+                </form>
+            {% else %}
+                <form method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" name="{{ form.state.html_name }}" value="1">
+                    <button class="btn btn-primary">Эхлүүлэх</button>
+                </form>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

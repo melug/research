@@ -1,0 +1,18 @@
+{% extends "research_base/survey_base.html" %}
+{% block head %}
+    <style type="text/css">
+        div.status {
+            padding: 20px;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+    <form method="POST" class="well form-inline">
+        {% csrf_token %}
+        <label>Гарчиг:</label>{{ form.title }}
+        <button class="btn">Хадгалах</button>
+    </form>
+    <div class="row status">
+        Нийт {{ survey.count_responders }} хүн судалгаанд хамрагдсанаас {{ survey.count_partial_responders }} хүн дутуу бөглөсөн байна.
+    </div>
+{% endblock %}

@@ -1,0 +1,17 @@
+Судалгаа авахад зориулсан локал орчны веб. 
+
+Хийх нэлээн хэдэн ажил байгаа боловч одоогоор энэ ажиллаж чадна, та ч хувь нэмрээ оруулаад өөртөө ашигласан болно. 
+
+Суулгах:
+
+pip install -r requirements.txt
+
+Ажиллуулах:
+
+python manage.py runserver
+
+Браузераа http://localhost:8000/ руу шилжүүлнэ үү. Нэр нь admin, нууц үг нь бас admin
+
+Бэлэн өгөгдөл оруулж шалгахаар бол
+
+python manage.py loaddata fixtures/initial_data.json
